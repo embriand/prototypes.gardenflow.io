@@ -16,6 +16,19 @@ const prototypes = [
     size: 'large',
     technologies: ['React', 'Canvas', 'TypeScript'],
     complexity: 'high'
+  },
+  {
+    id: 'dynamic-search-bar',
+    title: 'Dynamic Search Bar',
+    path: '/dynamic-search-bar',
+    description: 'AI-powered intelligent search with dynamic suggestions and interactive drag & drop interface',
+    status: 'active',
+    lastModified: '2025-08-03',
+    featured: true,
+    category: 'tools',
+    size: 'large',
+    technologies: ['React', 'AI/ML', 'TypeScript'],
+    complexity: 'high'
   }
 ]
 

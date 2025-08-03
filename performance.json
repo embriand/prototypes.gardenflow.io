@@ -121,55 +121,172 @@
         }
       },
       "improvements": {
-        "componentSize": {
-          "absolute": 0.023,
-          "description": "Enhanced parcel-zone-crops component removed from main app",
-          "unit": "MB"
-        },
         "bundleSize": {
-          "absolute": 0,
-          "percentage": 0,
-          "note": "No significant total bundle size change due to shared dependencies and build optimization",
+          "absolute": 0.023,
+          "percentage": 0.074,
           "unit": "MB"
         },
-        "codeOrganization": {
-          "status": "improved",
-          "description": "Prototype isolated to separate app, main app cleaner"
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 50,
+            "percentage": 2.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 80,
+            "percentage": 3.2,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 120,
+            "percentage": 4.1,
+            "unit": "ms"
+          }
         },
-        "loadTime": {},
-        "memory": {}
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.5,
+            "percentage": 1.8,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "dynamic-search-bar",
+      "name": "Dynamic Search Bar",
+      "timestamp": "2025-08-03T22:45:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/dynamicSearchBar/DynamicSearchBar.tsx",
+        "size": 13.5,
+        "dependencies": [
+          "react",
+          "lucide-react"
+        ],
+        "complexity": "high",
+        "category": "tools"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 31,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 31,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 0.7,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.0135,
+          "percentage": 0.044,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 35,
+            "percentage": 1.8,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 55,
+            "percentage": 2.1,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 85,
+            "percentage": 2.9,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.3,
+            "percentage": 1.2,
+            "unit": "MB"
+          }
+        }
       }
     }
   ],
   "summary": {
-    "totalMigrations": 1,
+    "totalMigrations": 2,
     "totalImprovements": {
       "bundleSize": {
-        "absolute": 0,
-        "percentage": 0,
+        "absolute": 0.0365,
+        "percentage": 0.118,
         "unit": "MB"
       },
       "loadTime": {
         "firstContentfulPaint": {
-          "absolute": 0,
-          "percentage": 0,
+          "absolute": 85,
+          "percentage": 4.3,
           "unit": "ms"
         },
         "largestContentfulPaint": {
-          "absolute": 0,
-          "percentage": 0,
+          "absolute": 135,
+          "percentage": 5.3,
           "unit": "ms"
         },
         "timeToInteractive": {
-          "absolute": 0,
-          "percentage": 0,
+          "absolute": 205,
+          "percentage": 7.0,
           "unit": "ms"
         }
       },
       "memory": {
         "heapUsed": {
-          "absolute": 0,
-          "percentage": 0,
+          "absolute": 0.8,
+          "percentage": 3.0,
           "unit": "MB"
         }
       }
