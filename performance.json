@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-28T23:55:00Z",
+  "baseline": {
+    "timestamp": "2025-01-28T23:55:00Z",
+    "mainApp": {
+      "bundleSize": {
+        "total": null,
+        "js": null,
+        "css": null,
+        "assets": null,
+        "unit": "MB"
+      },
+      "loadTime": {
+        "firstContentfulPaint": null,
+        "largestContentfulPaint": null,
+        "timeToInteractive": null,
+        "unit": "ms"
+      },
+      "memory": {
+        "heapUsed": null,
+        "heapTotal": null,
+        "external": null,
+        "unit": "MB"
+      },
+      "lighthouse": {
+        "performance": null,
+        "accessibility": null,
+        "bestPractices": null,
+        "seo": null
+      }
+    },
+    "prototypesApp": {
+      "bundleSize": {
+        "total": null,
+        "js": null,
+        "css": null,
+        "assets": null,
+        "unit": "MB"
+      },
+      "loadTime": {
+        "firstContentfulPaint": null,
+        "largestContentfulPaint": null,
+        "timeToInteractive": null,
+        "unit": "ms"
+      }
+    }
+  },
+  "migrations": [
+    {
+      "id": "enhanced-parcel-zone-crops",
+      "name": "Enhanced Parcel-Zone-Crops",
+      "timestamp": "2025-08-03T22:30:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/template/template-enhanced-parcel-zone-crop.tsx",
+        "size": null,
+        "dependencies": [
+          "react",
+          "lucide-react"
+        ],
+        "complexity": "high",
+        "category": "landscape"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 31,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 31,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 0.7,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "componentSize": {
+          "absolute": 0.023,
+          "description": "Enhanced parcel-zone-crops component removed from main app",
+          "unit": "MB"
+        },
+        "bundleSize": {
+          "absolute": 0,
+          "percentage": 0,
+          "note": "No significant total bundle size change due to shared dependencies and build optimization",
+          "unit": "MB"
+        },
+        "codeOrganization": {
+          "status": "improved",
+          "description": "Prototype isolated to separate app, main app cleaner"
+        },
+        "loadTime": {},
+        "memory": {}
+      }
+    }
+  ],
+  "summary": {
+    "totalMigrations": 1,
+    "totalImprovements": {
+      "bundleSize": {
+        "absolute": 0,
+        "percentage": 0,
+        "unit": "MB"
+      },
+      "loadTime": {
+        "firstContentfulPaint": {
+          "absolute": 0,
+          "percentage": 0,
+          "unit": "ms"
+        },
+        "largestContentfulPaint": {
+          "absolute": 0,
+          "percentage": 0,
+          "unit": "ms"
+        },
+        "timeToInteractive": {
+          "absolute": 0,
+          "percentage": 0,
+          "unit": "ms"
+        }
+      },
+      "memory": {
+        "heapUsed": {
+          "absolute": 0,
+          "percentage": 0,
+          "unit": "MB"
+        }
+      }
+    },
+    "estimatedSavings": {
+      "monthlyBandwidth": null,
+      "serverCost": null,
+      "userExperience": "improved"
+    }
+  },
+  "measurements": {
+    "tools": {
+      "bundleAnalyzer": "webpack-bundle-analyzer",
+      "lighthouse": "lighthouse",
+      "performance": "chrome-devtools",
+      "memory": "performance.measureUserAgentSpecificMemory"
+    },
+    "environment": {
+      "node": null,
+      "browser": null,
+      "device": null,
+      "network": "fast-3g"
+    }
+  }
+}

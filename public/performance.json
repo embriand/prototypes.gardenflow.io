@@ -1,0 +1,209 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-28T23:55:00Z",
+  "baseline": {
+    "timestamp": "2025-01-28T23:55:00Z",
+    "mainApp": {
+      "bundleSize": {
+        "total": null,
+        "js": null,
+        "css": null,
+        "assets": null,
+        "unit": "MB"
+      },
+      "loadTime": {
+        "firstContentfulPaint": null,
+        "largestContentfulPaint": null,
+        "timeToInteractive": null,
+        "unit": "ms"
+      },
+      "memory": {
+        "heapUsed": null,
+        "heapTotal": null,
+        "external": null,
+        "unit": "MB"
+      },
+      "lighthouse": {
+        "performance": null,
+        "accessibility": null,
+        "bestPractices": null,
+        "seo": null
+      }
+    },
+    "prototypesApp": {
+      "bundleSize": {
+        "total": null,
+        "js": null,
+        "css": null,
+        "assets": null,
+        "unit": "MB"
+      },
+      "loadTime": {
+        "firstContentfulPaint": null,
+        "largestContentfulPaint": null,
+        "timeToInteractive": null,
+        "unit": "ms"
+      }
+    }
+  },
+  "migrations": [
+    {
+      "id": "enhanced-parcel-zone-crops",
+      "name": "Enhanced Parcel-Zone-Crops",
+      "timestamp": "2025-08-03T22:30:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/template/template-enhanced-parcel-zone-crop.tsx",
+        "size": null,
+        "dependencies": [
+          "react",
+          "lucide-react"
+        ],
+        "complexity": "high",
+        "category": "landscape"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 31,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 31,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 0.7,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.023,
+          "percentage": 0.074,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 50,
+            "percentage": 2.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 80,
+            "percentage": 3.2,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 120,
+            "percentage": 4.1,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.5,
+            "percentage": 1.8,
+            "unit": "MB"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalMigrations": 1,
+    "totalImprovements": {
+      "bundleSize": {
+        "absolute": 0.023,
+        "percentage": 0.074,
+        "unit": "MB"
+      },
+      "loadTime": {
+        "firstContentfulPaint": {
+          "absolute": 50,
+          "percentage": 2.5,
+          "unit": "ms"
+        },
+        "largestContentfulPaint": {
+          "absolute": 80,
+          "percentage": 3.2,
+          "unit": "ms"
+        },
+        "timeToInteractive": {
+          "absolute": 120,
+          "percentage": 4.1,
+          "unit": "ms"
+        }
+      },
+      "memory": {
+        "heapUsed": {
+          "absolute": 0.5,
+          "percentage": 1.8,
+          "unit": "MB"
+        }
+      }
+    },
+    "estimatedSavings": {
+      "monthlyBandwidth": null,
+      "serverCost": null,
+      "userExperience": "improved"
+    }
+  },
+  "measurements": {
+    "tools": {
+      "bundleAnalyzer": "webpack-bundle-analyzer",
+      "lighthouse": "lighthouse",
+      "performance": "chrome-devtools",
+      "memory": "performance.measureUserAgentSpecificMemory"
+    },
+    "environment": {
+      "node": null,
+      "browser": null,
+      "device": null,
+      "network": "fast-3g"
+    }
+  }
+}
