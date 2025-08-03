@@ -1,0 +1,716 @@
+{
+    "months": [
+        {
+            "name": "Janvier",
+            "categories": {
+                "vegetables": [
+                    {
+                        "name": "Ail",
+                        "bee_friendly": false,
+                        "description": "Garlic"
+                    },
+                    {
+                        "name": "Betterave",
+                        "bee_friendly": false,
+                        "description": "Beetroot"
+                    },
+                    {
+                        "name": "Carotte",
+                        "bee_friendly": true,
+                        "description": "Carrot"
+                    },
+                    {
+                        "name": "Céleri-branche",
+                        "bee_friendly": true,
+                        "description": "Celery stalks"
+                    },
+                    {
+                        "name": "Céleri-rave",
+                        "bee_friendly": true,
+                        "description": "Celery root"
+                    },
+                    {
+                        "name": "Chou",
+                        "bee_friendly": true,
+                        "description": "Cabbage"
+                    },
+                    {
+                        "name": "Chou blanc",
+                        "bee_friendly": true,
+                        "description": "White cabbage, bee-friendly"
+                    },
+                    {
+                        "name": "Chou de Bruxelles",
+                        "bee_friendly": true,
+                        "description": "Brussels sprouts"
+                    },
+                    {
+                        "name": "Chou frisé",
+                        "bee_friendly": true,
+                        "description": "Curly kale"
+                    },
+                    {
+                        "name": "Chou rouge",
+                        "bee_friendly": true,
+                        "description": "Red cabbage"
+                    },
+                    {
+                        "name": "Courge",
+                        "bee_friendly": true,
+                        "description": "Squash"
+                    },
+                    {
+                        "name": "Crosne",
+                        "bee_friendly": false,
+                        "description": "Jerusalem artichoke tuber"
+                    },
+                    {
+                        "name": "Endive",
+                        "bee_friendly": true,
+                        "description": "Endive"
+                    },
+                    {
+                        "name": "Épinard",
+                        "bee_friendly": false,
+                        "description": "Spinach"
+                    },
+                    {
+                        "name": "Frisée",
+                        "bee_friendly": true,
+                        "description": "Frisée lettuce"
+                    },
+                    {
+                        "name": "Mâche",
+                        "bee_friendly": false,
+                        "description": "Corn salad"
+                    },
+                    {
+                        "name": "Navet",
+                        "bee_friendly": true,
+                        "description": "Turnip"
+                    },
+                    {
+                        "name": "Oignon",
+                        "bee_friendly": true,
+                        "description": "Onion"
+                    },
+                    {
+                        "name": "Panais",
+                        "bee_friendly": true,
+                        "description": "Parsnip"
+                    },
+                    {
+                        "name": "Poireau",
+                        "bee_friendly": true,
+                        "description": "Leek"
+                    },
+                    {
+                        "name": "Pomme de terre de conservation",
+                        "bee_friendly": false,
+                        "description": "Storage potato"
+                    },
+                    {
+                        "name": "Salsifi",
+                        "bee_friendly": true,
+                        "description": "Salsify"
+                    },
+                    {
+                        "name": "Topinambour",
+                        "bee_friendly": false,
+                        "description": "Jerusalem artichoke"
+                    }
+                ],
+                "fruits": [
+                    {
+                        "name": "Amande sèche",
+                        "bee_friendly": true,
+                        "description": "Dried almond"
+                    },
+                    {
+                        "name": "Citron",
+                        "bee_friendly": true,
+                        "description": "Lemon"
+                    },
+                    {
+                        "name": "Clémentine",
+                        "bee_friendly": true,
+                        "description": "Clementine"
+                    },
+                    {
+                        "name": "Kaki",
+                        "bee_friendly": false,
+                        "description": "Persimmon"
+                    },
+                    {
+                        "name": "Kiwi",
+                        "bee_friendly": true,
+                        "description": "Kiwi"
+                    },
+                    {
+                        "name": "Mandarine",
+                        "bee_friendly": true,
+                        "description": "Mandarin orange"
+                    },
+                    {
+                        "name": "Orange",
+                        "bee_friendly": true,
+                        "description": "Orange"
+                    },
+                    {
+                        "name": "Pamplemousse",
+                        "bee_friendly": true,
+                        "description": "Grapefruit"
+                    },
+                    {
+                        "name": "Physalis",
+                        "bee_friendly": true,
+                        "description": "Physalis"
+                    },
+                    {
+                        "name": "Poire",
+                        "bee_friendly": true,
+                        "description": "Pear"
+                    },
+                    {
+                        "name": "Pomme",
+                        "bee_friendly": true,
+                        "description": "Apple"
+                    }
+                ],
+                "cereales_legumineuses": [
+                    {
+                        "name": "Lentille",
+                        "bee_friendly": true,
+                        "description": "Lentil"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Février",
+            "categories": {
+                "vegetable": [
+                    {
+                        "name": "Ail",
+                        "bee_friendly": false,
+                        "description": "Garlic"
+                    },
+                    {
+                        "name": "Betterave",
+                        "bee_friendly": false,
+                        "description": "Beetroot"
+                    },
+                    {
+                        "name": "Carotte",
+                        "bee_friendly": true,
+                        "description": "Carrot"
+                    },
+                    {
+                        "name": "Céleri-rave",
+                        "bee_friendly": true,
+                        "description": "Celery root"
+                    },
+                    {
+                        "name": "Chou blanc",
+                        "bee_friendly": true,
+                        "description": "White cabbage, bee-friendly"
+                    },
+                    {
+                        "name": "Chou de Bruxelles",
+                        "bee_friendly": true,
+                        "description": "Brussels sprouts"
+                    },
+                    {
+                        "name": "Chou frisé",
+                        "bee_friendly": true,
+                        "description": "Curly kale"
+                    },
+                    {
+                        "name": "Chou rouge",
+                        "bee_friendly": true,
+                        "description": "Red cabbage"
+                    },
+                    {
+                        "name": "Crosne",
+                        "bee_friendly": false,
+                        "description": "Jerusalem artichoke tuber"
+                    },
+                    {
+                        "name": "Endive",
+                        "bee_friendly": true,
+                        "description": "Endive"
+                    },
+                    {
+                        "name": "Épinard",
+                        "bee_friendly": false,
+                        "description": "Spinach"
+                    },
+                    {
+                        "name": "Frisée",
+                        "bee_friendly": true,
+                        "description": "Frisée lettuce"
+                    },
+                    {
+                        "name": "Mâche",
+                        "bee_friendly": false,
+                        "description": "Corn salad"
+                    },
+                    {
+                        "name": "Navet",
+                        "bee_friendly": true,
+                        "description": "Turnip"
+                    },
+                    {
+                        "name": "Oignon",
+                        "bee_friendly": true,
+                        "description": "Onion"
+                    },
+                    {
+                        "name": "Panais",
+                        "bee_friendly": true,
+                        "description": "Parsnip"
+                    },
+                    {
+                        "name": "Poireau",
+                        "bee_friendly": true,
+                        "description": "Leek"
+                    },
+                    {
+                        "name": "Pomme de terre de conservation",
+                        "bee_friendly": false,
+                        "description": "Storage potato"
+                    },
+                    {
+                        "name": "Radis",
+                        "bee_friendly": true,
+                        "description": "Radish"
+                    },
+                    {
+                        "name": "Salsifi",
+                        "bee_friendly": true,
+                        "description": "Salsify"
+                    },
+                    {
+                        "name": "Topinambour",
+                        "bee_friendly": false,
+                        "description": "Jerusalem artichoke"
+                    }
+                ],
+                "fruits": [
+                    {
+                        "name": "Amande sèche",
+                        "bee_friendly": true,
+                        "description": "Dried almond"
+                    },
+                    {
+                        "name": "Citron",
+                        "bee_friendly": true,
+                        "description": "Lemon"
+                    },
+                    {
+                        "name": "Clémentine",
+                        "bee_friendly": true,
+                        "description": "Clementine"
+                    },
+                    {
+                        "name": "Kiwi",
+                        "bee_friendly": true,
+                        "description": "Kiwi"
+                    },
+                    {
+                        "name": "Mandarine",
+                        "bee_friendly": true,
+                        "description": "Mandarin orange"
+                    },
+                    {
+                        "name": "Orange",
+                        "bee_friendly": true,
+                        "description": "Orange"
+                    },
+                    {
+                        "name": "Pamplemousse",
+                        "bee_friendly": true,
+                        "description": "Grapefruit"
+                    },
+                    {
+                        "name": "Physalis",
+                        "bee_friendly": true,
+                        "description": "Physalis"
+                    },
+                    {
+                        "name": "Poire",
+                        "bee_friendly": true,
+                        "description": "Pear"
+                    },
+                    {
+                        "name": "Pomme",
+                        "bee_friendly": true,
+                        "description": "Apple"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mars",
+            "categories": {
+                "fruits": [
+                    {
+                        "name": "Amande sèche",
+                        "bee_friendly": true,
+                        "description": "Dried almond"
+                    },
+                    {
+                        "name": "Citron",
+                        "bee_friendly": true,
+                        "description": "Lemon"
+                    },
+                    {
+                        "name": "Kiwi",
+                        "bee_friendly": true,
+                        "description": "Kiwi fruit"
+                    },
+                    {
+                        "name": "Orange",
+                        "bee_friendly": true,
+                        "description": "Orange"
+                    },
+                    {
+                        "name": "Pamplemousse",
+                        "bee_friendly": true,
+                        "description": "Grapefruit"
+                    },
+                    {
+                        "name": "Poire",
+                        "bee_friendly": true,
+                        "description": "Pear"
+                    },
+                    {
+                        "name": "Pomme",
+                        "bee_friendly": true,
+                        "description": "Apple"
+                    }
+                ],
+                "vegetables": [
+                    {
+                        "name": "Ail",
+                        "bee_friendly": false,
+                        "description": "Garlic"
+                    },
+                    {
+                        "name": "Asperge",
+                        "bee_friendly": true,
+                        "description": "Asparagus"
+                    },
+                    {
+                        "name": "Betterave",
+                        "bee_friendly": false,
+                        "description": "Beetroot"
+                    },
+                    {
+                        "name": "Blette",
+                        "bee_friendly": false,
+                        "description": "Swiss chard"
+                    },
+                    {
+                        "name": "Carotte",
+                        "bee_friendly": true,
+                        "description": "Carrot"
+                    },
+                    {
+                        "name": "Céleri-rave",
+                        "bee_friendly": true,
+                        "description": "Celery root"
+                    },
+                    {
+                        "name": "Chou",
+                        "bee_friendly": true,
+                        "description": "Cabbage"
+                    },
+                    {
+                        "name": "Chou de Bruxelles",
+                        "bee_friendly": true,
+                        "description": "Brussels sprouts"
+                    },
+                    {
+                        "name": "Chou-fleur",
+                        "bee_friendly": true,
+                        "description": "Cauliflower"
+                    },
+                    {
+                        "name": "Crosne",
+                        "bee_friendly": false,
+                        "description": "Jerusalem artichoke tuber"
+                    },
+                    {
+                        "name": "Endive",
+                        "bee_friendly": true,
+                        "description": "Endive"
+                    },
+                    {
+                        "name": "Épinard",
+                        "bee_friendly": false,
+                        "description": "Spinach"
+                    },
+                    {
+                        "name": "Frisée",
+                        "bee_friendly": true,
+                        "description": "Frisée lettuce"
+                    },
+                    {
+                        "name": "Navet",
+                        "bee_friendly": true,
+                        "description": "Turnip"
+                    },
+                    {
+                        "name": "Oignon",
+                        "bee_friendly": true,
+                        "description": "Onion"
+                    },
+                    {
+                        "name": "Panais",
+                        "bee_friendly": true,
+                        "description": "Parsnip"
+                    },
+                    {
+                        "name": "Poireau",
+                        "bee_friendly": true,
+                        "description": "Leek"
+                    },
+                    {
+                        "name": "Pomme de terre de conservation",
+                        "bee_friendly": false,
+                        "description": "Storage potato"
+                    },
+                    {
+                        "name": "Radis",
+                        "bee_friendly": true,
+                        "description": "Radish"
+                    },
+                    {
+                        "name": "Salsifi",
+                        "bee_friendly": true,
+                        "description": "Salsify"
+                    },
+                    {
+                        "name": "Topinambour",
+                        "bee_friendly": false,
+                        "description": "Jerusalem artichoke"
+                    }
+                ],
+                "cereales_legumineuses": [
+                    {
+                        "name": "Lentille",
+                        "bee_friendly": true,
+                        "description": "Lentil"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Avril",
+            "categories": {
+                "fruits": [
+                    {
+                        "name": "Amande sèche",
+                        "bee_friendly": true,
+                        "description": "Dried almond"
+                    },
+                    {
+                        "name": "Citron",
+                        "bee_friendly": true,
+                        "description": "Lemon"
+                    },
+                    {
+                        "name": "Pamplemousse",
+                        "bee_friendly": true,
+                        "description": "Grapefruit"
+                    },
+                    {
+                        "name": "Poire",
+                        "bee_friendly": true,
+                        "description": "Pear"
+                    },
+                    {
+                        "name": "Pomme",
+                        "bee_friendly": true,
+                        "description": "Apple"
+                    }
+                ],
+                "vegetables": [
+                    {
+                        "name": "Ail",
+                        "bee_friendly": false,
+                        "description": "Garlic"
+                    },
+                    {
+                        "name": "Artichaut",
+                        "bee_friendly": false,
+                        "description": "Artichoke"
+                    },
+                    {
+                        "name": "Asperge",
+                        "bee_friendly": true,
+                        "description": "Asparagus"
+                    },
+                    {
+                        "name": "Betterave",
+                        "bee_friendly": false,
+                        "description": "Beetroot"
+                    },
+                    {
+                        "name": "Blette",
+                        "bee_friendly": false,
+                        "description": "Swiss chard"
+                    },
+                    {
+                        "name": "Carotte",
+                        "bee_friendly": true,
+                        "description": "Carrot"
+                    },
+                    {
+                        "name": "Chou-fleur",
+                        "bee_friendly": true,
+                        "description": "Cauliflower"
+                    },
+                    {
+                        "name": "Concombre",
+                        "bee_friendly": true,
+                        "description": "Cucumber"
+                    },
+                    {
+                        "name": "Endive",
+                        "bee_friendly": true,
+                        "description": "Endive"
+                    },
+                    {
+                        "name": "Épinard",
+                        "bee_friendly": false,
+                        "description": "Spinach"
+                    },
+                    {
+                        "name": "Frisée",
+                        "bee_friendly": true,
+                        "description": "Frisée lettuce"
+                    },
+                    {
+                        "name": "Laitue",
+                        "bee_friendly": false,
+                        "description": "Lettuce"
+                    },
+                    {
+                        "name": "Navet",
+                        "bee_friendly": true,
+                        "description": "Turnip"
+                    },
+                    {
+                        "name": "Oignon",
+                        "bee_friendly": true,
+                        "description": "Onion"
+                    },
+                    {
+                        "name": "Petit pois",
+                        "bee_friendly": false,
+                        "description": "Green peas"
+                    },
+                    {
+                        "name": "Poireau",
+                        "bee_friendly": true,
+                        "description": "Leek"
+                    },
+                    {
+                        "name": "Pomme de terre primeur",
+                        "bee_friendly": false,
+                        "description": "New potato"
+                    },
+                    {
+                        "name": "Radis",
+                        "bee_friendly": true,
+                        "description": "Radish"
+                    }
+                ],
+                "cereales_legumineuses": []
+            }
+        },
+        {
+            "name": "Mai",
+            "categories": {
+                "fruits": [
+                    {"name": "Amande sèche", "bee_friendly": true, "description": "Dry almond"},
+                    {"name": "Cerise", "bee_friendly": true, "description": "Cherry"},
+                    {"name": "Fraise", "bee_friendly": true, "description": "Strawberry"},
+                    {"name": "Pamplemousse", "bee_friendly": true, "description": "Grapefruit"},
+                    {"name": "Rhubarbe", "bee_friendly": true, "description": "Rhubarb"},
+                    {"name": "Tomate", "bee_friendly": true, "description": "Tomato"}
+                ],
+                "vegetables": [
+                    {"name": "Ail", "bee_friendly": true, "description": "Garlic"},
+                    {"name": "Artichaut", "bee_friendly": true, "description": "Artichoke"},
+                    {"name": "Asperge", "bee_friendly": true, "description": "Asparagus"},
+                    {"name": "Aubergine", "bee_friendly": true, "description": "Eggplant"},
+                    {"name": "Betterave", "bee_friendly": true, "description": "Beetroot"},
+                    {"name": "Blette", "bee_friendly": true, "description": "Swiss chard"},
+                    {"name": "Carotte", "bee_friendly": true, "description": "Carrot"},
+                    {"name": "Chou-fleur", "bee_friendly": true, "description": "Cauliflower"},
+                    {"name": "Concombre", "bee_friendly": true, "description": "Cucumber"},
+                    {"name": "Courgette", "bee_friendly": true, "description": "Zucchini"}
+                        ],
+                "cereales_legumineuses": []
+            }
+        },
+        {
+            "name": "Juin",
+            "categories": {
+                "fruits": [
+                    {"name": "Abricot", "bee_friendly": true, "description": "Apricot"},
+                    {"name": "Amande sèche", "bee_friendly": true, "description": "Dry almond"},
+                    {"name": "Brugnon", "bee_friendly": true, "description": "Nectarine"},
+                    {"name": "Cassis", "bee_friendly": true, "description": "Blackcurrant"},
+                    {"name": "Cerise", "bee_friendly": true, "description": "Cherry"},
+                    {"name": "Citron", "bee_friendly": true, "description": "Lemon"},
+                    {"name": "Fraise", "bee_friendly": true, "description": "Strawberry"},
+                    {"name": "Framboise", "bee_friendly": true, "description": "Raspberry"},
+                    {"name": "Groseille", "bee_friendly": true, "description": "Redcurrant"},
+                    {"name": "Melon", "bee_friendly": true, "description": "Melon"},
+                    {"name": "Pamplemousse", "bee_friendly": true, "description": "Grapefruit"},
+                    {"name": "Pastèque", "bee_friendly": true, "description": "Watermelon"},
+                    {"name": "Pêche", "bee_friendly": true, "description": "Peach"},
+                    {"name": "Pomme", "bee_friendly": true, "description": "Apple"},
+                    {"name": "Prune", "bee_friendly": true, "description": "Plum"},
+                    {"name": "Rhubarbe", "bee_friendly": true, "description": "Rhubarb"},
+                    {"name": "Tomate", "bee_friendly": true, "description": "Tomato"}
+                ],
+                "vegetables": [
+                    {"name": "Ail", "bee_friendly": true, "description": "Garlic"},
+            {"name": "Artichaut", "bee_friendly": true, "description": "Artichoke"},
+            {"name": "Asperge", "bee_friendly": true, "description": "Asparagus"},
+            {"name": "Aubergine", "bee_friendly": true, "description": "Eggplant"},
+            {"name": "Betterave", "bee_friendly": true, "description": "Beetroot"},
+            {"name": "Blette", "bee_friendly": true, "description": "Swiss chard"},
+            {"name": "Brocoli", "bee_friendly": true, "description": "Broccoli"},
+            {"name": "Carotte", "bee_friendly": true, "description": "Carrot"},
+            {"name": "Chou romanesco", "bee_friendly": true, "description": "Romanesco"},
+            {"name": "Concombre", "bee_friendly": true, "description": "Cucumber"},
+            {"name": "Courgette", "bee_friendly": true, "description": "Zucchini"},
+            {"name": "Épinard", "bee_friendly": true, "description": "Spinach"},
+            {"name": "Fenouil", "bee_friendly": true, "description": "Fennel"},
+            {"name": "Haricot vert", "bee_friendly": true, "description": "Green bean"},
+            {"name": "Laitue", "bee_friendly": true, "description": "Lettuce"},
+            {"name": "Navet", "bee_friendly": true, "description": "Turnip"},
+            {"name": "Oignon", "bee_friendly": true, "description": "Onion"},
+            {"name": "Petit pois", "bee_friendly": true, "description": "Pea"},
+            {"name": "Poivron", "bee_friendly": true, "description": "Bell pepper"},
+            {"name": "Pomme de terre primeur", "bee_friendly": true, "description": "New potato"},
+            {"name": "Radis", "bee_friendly": true, "description": "Radish"}
+        ],
+                "cereales_legumineuses": [
+                    {"name": "Avoine d'hiver", "bee_friendly": true, "description": "Winter oats"},
+                    {"name": "Avoine de printemps", "bee_friendly": true, "description": "Spring oats"},
+                    {"name": "Orge d'hiver", "bee_friendly": true, "description": "Winter barley"},
+                    {"name": "Pois", "bee_friendly": true, "description": "Peas"},
+                    {"name": "Seigle", "bee_friendly": true, "description": "Rye"}
+                
+                ]
+            }
+        }
+    ]
+}

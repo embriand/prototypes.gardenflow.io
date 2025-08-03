@@ -1,0 +1,57 @@
+{
+    "trees": [
+      { "name": "Cerisier Ste Lucie", "number": 1, "donation": ["Alain"] },
+      { "name": "Amandier", "number": 1, "donation": ["Quissac"] },
+      { "name": "Amélanchiers", "number": 4, "donation": ["Romain", "Elise"] },
+      { "name": "Arbousiers", "number": 3, "donation": ["Olivier"] },
+      { "name": "Argousiers", "number": 3, "donation": ["Elise"] },
+      { "name": "Aubépines", "number": 2, "donation": ["Elise"] },
+      { "name": "Azerolier", "number": 1, "donation": ["Elise"] },
+      { "name": "Colutea", "number": 4, "donation": ["Elise"] },
+      { "name": "Buplèvre arbustif", "number": 1, "donation": ["Elise"] },
+      { "name": "Cistes cotonneux", "number": 2, "donation": ["Elise"] },
+      { "name": "Cistes de Montpellier", "number": 2, "donation": ["Romain"] },
+      { "name": "Cistes à feuille de sauge", "number": 2, "donation": ["Romain"] },
+      { "name": "Cornouillers sanguins", "number": 2, "donation": ["Romain"] },
+      { "name": "Cornus mas", "number": 3, "donation": ["Elise"] },
+      { "name": "Elaeagnus", "number": 3, "donation": ["Elise"] },
+      { "name": "Feijoa", "number": 1, "donation": ["Quissac"] },
+      { "name": "Figuier", "number": 1, "donation": ["Alain"] },
+      { "name": "Gattiliers", "number": 2, "donation": ["Olivier"] },
+      { "name": "Genévriers cade", "number": 4, "donation": ["Alain"] },
+      { "name": "Grenadiers", "number": 3, "donation": ["Romain", "Olivier", "Elise"] },
+      { "name": "Groseillers", "number": 3, "donation": ["Elise", "Caro"] },
+      { "name": "Hélichryses", "number": 3, "donation": ["Elise"] },
+      { "name": "Jujubier", "number": 1, "donation": ["Quissac"] },
+      { "name": "Laurier noble", "number": 1, "donation": ["Olivier"] },
+      { "name": "Lavandes vraies", "number": 2, "donation": ["Elise", "Caro"] },
+      { "name": "Lavandes papillon", "number": 2, "donation": ["Elise"] },
+      { "name": "Noisetiers", "number": 2, "donation": ["Elise"] },
+      { "name": "Olivier", "number": 1, "donation": ["Olivier"] },
+      { "name": "Pistachiers lentisques", "number": 4, "donation": ["Olivier"] },
+      { "name": "Pistachiers térébinthes", "number": 2, "donation": ["Elise"] },
+      { "name": "Romarins", "number": 4, "donation": ["Elise", "Noémie"] },
+      { "name": "Sauges", "number": 4, "donation": ["Elise", "Caro"] },
+      { "name": "Sauges arbustives", "number": 2, "donation": ["Elise"] },
+      { "name": "Sureaux noirs", "number": 2, "donation": ["Olivier", "Elise"] },
+      { "name": "Verveine citronnée", "number": 1, "donation": ["Caro"] },
+      { "name": "Vignes", "number": 2, "donation": ["Quissac"] },
+      { "name": "Mûre framboise", "number": 1, "donation": ["Quissac"] },
+      { "name": "Ronces sans épines", "number": 2, "donation": ["Caro"] }
+    ],
+    "replacements": [
+      { "name": "Pommiers Golden", "number": 2, "donation": ["Romain"] },
+      { "name": "Pruniers Mirabelle", "number": 3, "donation": ["Romain"] },
+      { "name": "Olivier", "number": 1, "donation": ["Olivier"] },
+      { "name": "Romarin", "number": 1, "donation": ["Elise"] }
+    ],
+    "summary": {
+      "total_plants": 84,
+      "climbers": 5,
+      "replacement_limits": {
+        "trees": 6,
+        "shrubs": 10
+      }
+    }
+  }
+  

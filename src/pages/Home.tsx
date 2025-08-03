@@ -29,6 +29,45 @@ const prototypes = [
     size: 'large',
     technologies: ['React', 'AI/ML', 'TypeScript'],
     complexity: 'high'
+  },
+  {
+    id: 'canvas-viewer',
+    title: 'Canvas Viewer',
+    path: '/canvas-viewer',
+    description: 'Interactive 3D shape canvas with advanced tooling, grid system, and real-time manipulation',
+    status: 'active',
+    lastModified: '2025-08-03',
+    featured: true,
+    category: 'ui',
+    size: 'large',
+    technologies: ['React', 'Redux', 'Canvas API', 'TypeScript'],
+    complexity: 'high'
+  },
+  {
+    id: 'donations',
+    title: 'Donations',
+    path: '/donations',
+    description: 'Tree and plant donation management system with donation tracking and contributor records',
+    status: 'active',
+    lastModified: '2025-08-03',
+    featured: false,
+    category: 'tools',
+    size: 'medium',
+    technologies: ['React', 'TypeScript', 'JSON'],
+    complexity: 'low'
+  },
+  {
+    id: 'calendar',
+    title: 'Calendar',
+    path: '/calendar',
+    description: 'Interactive crop planting calendar with monthly schedules, bee-friendly indicators, and seasonal planning',
+    status: 'active',
+    lastModified: '2025-08-03',
+    featured: true,
+    category: 'ui',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'JSON'],
+    complexity: 'medium'
   }
 ]
 
@@ -109,7 +148,7 @@ const Home = () => {
       icon: <Gauge className="w-5 h-5" />, 
       color: performanceStats.performanceGain !== 'N/A' ? 'text-purple-600' : 'text-gray-400' 
     },
-    { label: 'Port', value: '5174', icon: <Activity className="w-5 h-5" />, color: 'text-orange-600' }
+    { label: 'Port', value: '5175', icon: <Activity className="w-5 h-5" />, color: 'text-orange-600' }
   ]
 
   const benefits = [
