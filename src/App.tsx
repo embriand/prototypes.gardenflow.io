@@ -6,10 +6,14 @@ import DynamicSearchBar from './prototypes/dynamic-search-bar'
 import CanvasViewer from './prototypes/canvas-viewer'
 import Donations from './prototypes/donations'
 import Calendar from './prototypes/calendar'
+import CollapsableDrawers from './prototypes/collapsable-drawers'
+import MessagingChat from './prototypes/messaging-chat'
+import Chat from './prototypes/chat'
+import GuideTour from './prototypes/guidetour'
 
 function App() {
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,6 +22,10 @@ function App() {
           <Route path="/canvas-viewer" element={<CanvasViewer />} />
           <Route path="/donations" element={<Donations />} />
           <Route path="/calendar" element={<Calendar />} />
+          <Route path="/collapsable-drawers" element={<CollapsableDrawers />} />
+          <Route path="/messaging-chat" element={<MessagingChat />} />
+          <Route path="/chat" element={<Chat />} />
+          <Route path="/guidetour" element={<GuideTour />} />
         </Routes>
       </Layout>
     </Router>

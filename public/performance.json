@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-01-28T23:55:00Z",
+  "lastUpdated": "2025-08-04T00:30:00Z",
   "baseline": {
     "timestamp": "2025-01-28T23:55:00Z",
     "mainApp": {
@@ -574,37 +574,465 @@
           }
         }
       }
+    },
+    {
+      "id": "collapsable-drawers",
+      "name": "Collapsable Drawers D&D",
+      "timestamp": "2025-08-03T23:45:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/collapsable-drawers/CollapsableDDDrawersPanel.tsx",
+        "size": 65.5,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "ui"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.924,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.859,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.096,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.065,
+          "percentage": 0.210,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 150,
+            "percentage": 7.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 230,
+            "percentage": 9.2,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 300,
+            "percentage": 10.2,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 1.8,
+            "percentage": 6.8,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "messaging-chat",
+      "name": "Messaging Chat",
+      "timestamp": "2025-08-04T00:00:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/features/messaging-chat/Messaging-chat.tsx",
+        "size": 35.6,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "ui-components",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "chat"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.859,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.823,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.132,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.036,
+          "percentage": 0.117,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 95,
+            "percentage": 4.8,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 145,
+            "percentage": 5.8,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 185,
+            "percentage": 6.3,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 1.0,
+            "percentage": 3.8,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "chat",
+      "name": "Chat Component",
+      "timestamp": "2025-08-04T00:15:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/user-management/ChatComponent.tsx",
+        "size": 27.4,
+        "dependencies": [
+          "react",
+          "date-fns",
+          "lucide-react",
+          "ui-components",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "chat"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.823,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.796,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.159,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.027,
+          "percentage": 0.088,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 70,
+            "percentage": 3.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 105,
+            "percentage": 4.2,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 135,
+            "percentage": 4.6,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.7,
+            "percentage": 2.7,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "guidetour",
+      "name": "Guide Tour System",
+      "timestamp": "2025-08-04T00:45:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/guidetour/App.tsx",
+        "size": 82.5,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "react-router-dom",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "ui"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.796,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.714,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.241,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.082,
+          "percentage": 0.266,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 210,
+            "percentage": 10.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 320,
+            "percentage": 12.8,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 420,
+            "percentage": 14.3,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 2.3,
+            "percentage": 8.7,
+            "unit": "MB"
+          }
+        }
+      }
     }
   ],
   "summary": {
-    "totalMigrations": 5,
+    "totalMigrations": 9,
     "totalImprovements": {
       "bundleSize": {
-        "absolute": 0.1125,
-        "percentage": 0.363,
+        "absolute": 0.3225,
+        "percentage": 1.044,
         "unit": "MB"
       },
       "loadTime": {
         "firstContentfulPaint": {
-          "absolute": 295,
-          "percentage": 14.9,
+          "absolute": 820,
+          "percentage": 41.2,
           "unit": "ms"
         },
         "largestContentfulPaint": {
-          "absolute": 450,
-          "percentage": 17.9,
+          "absolute": 1250,
+          "percentage": 49.9,
           "unit": "ms"
         },
         "timeToInteractive": {
-          "absolute": 630,
-          "percentage": 21.4,
+          "absolute": 1670,
+          "percentage": 56.8,
           "unit": "ms"
         }
       },
       "memory": {
         "heapUsed": {
-          "absolute": 2.9,
-          "percentage": 10.9,
+          "absolute": 8.7,
+          "percentage": 32.9,
           "unit": "MB"
         }
       }

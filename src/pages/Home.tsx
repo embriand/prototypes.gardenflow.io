@@ -68,6 +68,58 @@ const prototypes = [
     size: 'large',
     technologies: ['React', 'TypeScript', 'JSON'],
     complexity: 'medium'
+  },
+  {
+    id: 'collapsable-drawers',
+    title: 'Collapsable Drawers D&D',
+    path: '/collapsable-drawers',
+    description: 'Advanced drag & drop interface with collapsible drawer panels, grid snapping, and collision detection',
+    status: 'active',
+    lastModified: '2025-08-03',
+    featured: true,
+    category: 'ui',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Drag & Drop'],
+    complexity: 'high'
+  },
+  {
+    id: 'messaging-chat',
+    title: 'Messaging Chat',
+    path: '/messaging-chat',
+    description: 'Real-time messaging system with contact management, search functionality, and local storage persistence',
+    status: 'active',
+    lastModified: '2025-08-03',
+    featured: true,
+    category: 'chat',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Context API', 'Local Storage'],
+    complexity: 'high'
+  },
+  {
+    id: 'chat',
+    title: 'Chat Component',
+    path: '/chat',
+    description: 'WhatsApp-style chat interface with user selection, messaging, and real-time communication features',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'chat',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'date-fns', 'Lucide Icons'],
+    complexity: 'high'
+  },
+  {
+    id: 'guidetour',
+    title: 'Guide Tour System',
+    path: '/guidetour',
+    description: 'Interactive tutorial and guided tour system with step-by-step instructions, tooltips, and onboarding flows',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'ui',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Lucide Icons'],
+    complexity: 'high'
   }
 ]
 

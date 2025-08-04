@@ -11,12 +11,17 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@reduxjs/toolkit": "^2.8.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^9.2.0",
-    "react-router-dom": "^6.28.0"
+    "react-router-dom": "^6.28.0",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",
