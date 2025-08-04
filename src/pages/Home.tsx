@@ -109,16 +109,107 @@ const prototypes = [
     complexity: 'high'
   },
   {
-    id: 'guidetour',
-    title: 'Guide Tour System',
-    path: '/guidetour',
-    description: 'Interactive tutorial and guided tour system with step-by-step instructions, tooltips, and onboarding flows',
+    id: 'apiconfig',
+    title: 'API Configuration',
+    path: '/apiconfig',
+    description: 'Configure external APIs to fetch products and design interactive canvases with drag-and-drop functionality',
     status: 'active',
     lastModified: '2025-08-04',
     featured: true,
-    category: 'ui',
+    category: 'api',
     size: 'large',
-    technologies: ['React', 'TypeScript', 'Lucide Icons'],
+    technologies: ['React', 'TypeScript', 'Lucide Icons', 'Canvas API'],
+    complexity: 'high'
+  },
+  {
+    id: 'landscape',
+    title: 'Landscape Designer',
+    path: '/landscape',
+    description: 'Advanced landscape design tool with drag-and-drop functionality for 2D garden planning',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'landscape',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Canvas API', 'SVG'],
+    complexity: 'high'
+  },
+  {
+    id: 'clientTasksManagement',
+    title: 'Client Tasks Management',
+    path: '/clientTasksManagement',
+    description: 'Comprehensive task management system for garden and landscape maintenance with team coordination',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'tools',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Lucide Icons', 'Context API'],
+    complexity: 'high'
+  },
+  {
+    id: 'activityManagementSystem',
+    title: 'Activity Management System',
+    path: '/activityManagementSystem',
+    description: 'Comprehensive activity, user, group, and event management with automatic assignments and notifications',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'tools',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Lucide Icons', 'UUID'],
+    complexity: 'high'
+  },
+  {
+    id: 'compostManagement',
+    title: 'Compost Management',
+    path: '/compostManagement',
+    description: 'Advanced compost monitoring and management system with tracking, analytics, and optimization features',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'tools',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Recharts', 'Lucide Icons'],
+    complexity: 'high'
+  },
+  {
+    id: 'pollinationDashboardContainer',
+    title: 'Pollination Dashboard',
+    path: '/pollinationDashboardContainer',
+    description: 'Comprehensive pollination management with bloom calendar, plant tracking, and environmental monitoring',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'landscape',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Canvas API', 'Date-fns'],
+    complexity: 'high'
+  },
+  {
+    id: 'gardenVision',
+    title: 'Garden Vision',
+    path: '/gardenVision',
+    description: 'AI-powered plant analysis using computer vision to identify plants, diagnose issues, and provide care recommendations',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'tools',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Computer Vision', 'AI/ML'],
+    complexity: 'high'
+  },
+  {
+    id: 'aiGardenPlanner',
+    title: 'AI Garden Planner',
+    path: '/aiGardenPlanner',
+    description: 'Intelligent garden layout optimization with automated box placement, efficiency analysis, and saved layouts',
+    status: 'active',
+    lastModified: '2025-08-04',
+    featured: true,
+    category: 'landscape',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Canvas API', 'Algorithm Optimization'],
     complexity: 'high'
   }
 ]
@@ -206,21 +297,21 @@ const Home = () => {
   const benefits = [
     {
       title: 'Performance Boost',
-      description: 'Isolate heavy components from main app bundle',
+      description: 'Isolate heavy components like compost analytics from main bundle',
       icon: <Rocket className="w-8 h-8" />,
       gradient: 'from-green-400 to-emerald-500',
-      stats: '+25% faster load'
+      stats: '+30% faster load'
     },
     {
       title: 'Clean Architecture',
-      description: 'Separate experimental features from production',
+      description: 'Separate complex features like pollination tracking from production',
       icon: <Shield className="w-8 h-8" />,
       gradient: 'from-blue-400 to-cyan-500',
       stats: 'Zero conflicts'
     },
     {
       title: 'Rapid Testing',
-      description: 'Test prototypes in complete isolation',
+      description: 'Test chart-heavy prototypes in complete isolation',
       icon: <TestTube className="w-8 h-8" />,
       gradient: 'from-purple-400 to-violet-500',
       stats: 'Instant feedback'
