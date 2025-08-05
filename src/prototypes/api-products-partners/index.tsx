@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { AlertCircle, Link, Save, Trash2, PlusCircle, CheckCircle } from "lucide-react";
+import { AlertCircle, Link, Save, Trash2 } from "lucide-react";
 
 interface ApiConfig {
   id: string;
@@ -61,17 +61,11 @@ interface CanvasItem {
   width: number;
   height: number;
   image: string;
-  type: "flat" | "2d";
+  type: "flat" | "2d"; 
   category: "tree" | "furniture" | "bush";
   rotation?: number;
 }
 
-interface DraggableItem {
-  id: string;
-  name: string;
-  image: string;
-  type: "flat" | "2d";
-}
 
 const mockItems = {
   trees: [
@@ -112,15 +106,15 @@ const mockItems = {
       id: "tree4",
       name: "Tree 4",
       image: `
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-          <path fill="#228B22" d="M50 20c-15 10-20 25-20 35c0 15 15 30 20 30s20-15 20-30c0-10-5-25-20-35z"/>
-          <path fill="#8B4513" d="M50 85c-5-5-10-20-10-30c0-15 10-30 10-30s10 15 10 30c0 10-5 25-10 30z"/>
-          <ellipse cx="50" cy="45" rx="15" ry="25" fill="#2E8B57"/>
-          <path fill="#A0522D" d="M45 85v-10a5 5 0 0 1 10 0v10z"/>
-        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <path fill="#228B22" d="M50 20c-15 10-20 25-20 35c0 15 15 30 20 30s20-15 20-30c0-10-5-25-20-35z"/>
+              <path fill="#8B4513" d="M50 85c-5-5-10-20-10-30c0-15 10-30 10-30s10 15 10 30c0 10-5 25-10 30z"/>
+              <ellipse cx="50" cy="45" rx="15" ry="25" fill="#2E8B57"/>
+              <path fill="#A0522D" d="M45 85v-10a5 5 0 0 1 10 0v10z"/>
+              </svg>
       `,
       category: "tree",
-    },
+      },
   ],
   furniture: [
     {
@@ -162,9 +156,9 @@ const mockItems = {
   ],
 };
 
-const ApiConfigComponent: React.FC = () => {
+const ApiProductsPartners: React.FC = () => {
   const [canvases, setCanvases] = useState<any[]>(() => {
-    const saved = localStorage.getItem("canvases");
+    const saved = localStorage.getItem("api-products-partners-canvases");
     return saved ? JSON.parse(saved) : [];
   });
   const [selectedCanvas, setSelectedCanvas] = useState<number | null>(null);
@@ -183,7 +177,7 @@ const ApiConfigComponent: React.FC = () => {
   ];
 
   useEffect(() => {
-    localStorage.setItem("canvases", JSON.stringify(canvases));
+    localStorage.setItem("api-products-partners-canvases", JSON.stringify(canvases));
   }, [canvases]);
 
   const createNewCanvas = () => {
@@ -255,10 +249,10 @@ const ApiConfigComponent: React.FC = () => {
     const updatedCanvases: CanvasItem[] = canvases.map((canvas: any) =>
       canvas.id === selectedCanvas
         ? {
-            ...canvas,
-            items: canvas.items.map((item: CanvasItem) =>
-              item.id === updatedItem.id ? updatedItem : item
-            ),
+      ...canvas,
+      items: canvas.items.map((item: CanvasItem) =>
+        item.id === updatedItem.id ? updatedItem : item
+      ),
           }
         : canvas
     );
@@ -289,10 +283,10 @@ const ApiConfigComponent: React.FC = () => {
     const updatedCanvases: CanvasItem[] = canvases.map((canvas: any) =>
       canvas.id === selectedCanvas
         ? {
-            ...canvas,
-            items: canvas.items.map((item: CanvasItem) =>
-              item.id === updatedItem.id ? updatedItem : item
-            ),
+      ...canvas,
+      items: canvas.items.map((item: CanvasItem) =>
+        item.id === updatedItem.id ? updatedItem : item
+      ),
           }
         : canvas
     );
@@ -355,7 +349,7 @@ const ApiConfigComponent: React.FC = () => {
 
   // API Configuration state
   const [apiConfigs, setApiConfigs] = useState<ApiConfig[]>(() => {
-    const savedConfigs = localStorage.getItem("apiConfigurations");
+    const savedConfigs = localStorage.getItem("api-products-partners-configurations");
     return savedConfigs ? JSON.parse(savedConfigs) : [];
   });
 
@@ -363,10 +357,11 @@ const ApiConfigComponent: React.FC = () => {
   const [currentApiConfig, setCurrentApiConfig] = useState<Partial<ApiConfig>>({});
   const [fetchedProducts, setFetchedProducts] = useState<ProductItem[]>([]);
   const [apiError, setApiError] = useState<string | null>(null);
+  
   const [selectedApiConfig, setSelectedApiConfig] = useState<ApiConfig | null>(null);
 
   useEffect(() => {
-    localStorage.setItem("apiConfigurations", JSON.stringify(apiConfigs));
+    localStorage.setItem("api-products-partners-configurations", JSON.stringify(apiConfigs));
   }, [apiConfigs]);
 
   const handleAddApiConfig = () => {
@@ -397,21 +392,21 @@ const ApiConfigComponent: React.FC = () => {
       const headers: Record<string, string> = {
         "Content-Type": "application/json",
       };
-
+  
       if (config.authType === "basic") {
         headers["Authorization"] = `Basic ${btoa(`${config.username}:${config.password}`)}`;
       }
-
+  
       if (config.authType === "token") {
         headers["Authorization"] = `Bearer ${config.apiKey}`;
       }
-
+  
       const response = await fetch(`${config.baseUrl}${config.endpoint}`, { method: "GET", headers });
-
+  
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-
+  
       const data = await response.json();
       setFetchedProducts(data.products || []);
       setApiError(null);
@@ -421,6 +416,7 @@ const ApiConfigComponent: React.FC = () => {
       setFetchedProducts([]);
     }
   };
+  
 
   const handleDeleteApiConfig = (configId: string) => {
     setApiConfigs(apiConfigs.filter(config => config.id !== configId));
@@ -428,7 +424,7 @@ const ApiConfigComponent: React.FC = () => {
 
   const renderApiConfigPanel = () => (
     <div className="p-4 border rounded shadow-md bg-white">
-      <h2 className="text-lg font-semibold mb-4">API Configuration</h2>
+      <h2 className="text-lg font-semibold mb-4">API Products & Partners Configuration</h2>
       
       <div className="space-y-4">
         <input
@@ -505,7 +501,7 @@ const ApiConfigComponent: React.FC = () => {
       </div>
       
       <div className="mt-6">
-        <h3 className="text-md font-semibold mb-2">Existing Configurations</h3>
+        <h3 className="text-md font-semibold mb-2">Partner API Configurations</h3>
         {apiConfigs.map(config => (
           <div key={config.id} className="flex items-center justify-between p-2 border rounded mb-2">
             <span>{config.name} - {config.baseUrl}</span>
@@ -537,9 +533,9 @@ const ApiConfigComponent: React.FC = () => {
         </div>
       )}
       
-      {fetchedProducts.length > 0 && (
+      {fetchedProducts.length > 0 && selectedApiConfig && (
         <div className="mt-6">
-          <h3 className="text-md font-semibold mb-2">Fetched Products</h3>
+          <h3 className="text-md font-semibold mb-2">Partner Products from {selectedApiConfig.name}</h3>
           <div className="grid grid-cols-2 gap-2">
             {fetchedProducts.map(product => (
               <div key={product.id} className="p-2 border rounded">
@@ -559,7 +555,7 @@ const ApiConfigComponent: React.FC = () => {
   return (
     <div className="h-screen flex flex-col bg-gray-100">
       <header className="bg-blue-600 text-white p-4 shadow-md sticky top-0 z-10">
-        <h1 className="text-2xl font-bold">API Configuration & Canvas Designer</h1>
+        <h1 className="text-2xl font-bold">API Products & Partners Management</h1>
       </header>
       
       <div className="flex flex-1">
@@ -844,7 +840,7 @@ const ApiConfigComponent: React.FC = () => {
               className="text-lg font-semibold cursor-pointer border-b pb-2"
               onClick={() => setIsApiPanelOpen(!isApiPanelOpen)}
             >
-              API Configuration
+              API Products & Partners
               <span className="ml-2 text-gray-500 group-hover:rotate-180 transition-transform">&#9654;</span>
             </h2>
             
@@ -856,4 +852,4 @@ const ApiConfigComponent: React.FC = () => {
   );
 };
 
-export default ApiConfigComponent;
+export default ApiProductsPartners;

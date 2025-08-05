@@ -84,8 +84,8 @@ const ClientTasksManagement: React.FC<ClientTasksProps> = () => {
       dueDate: getRelativeDate(0),
       plant: { name: 'Pilea', image: '/api/placeholder/64/64' },
       assignedUsers: [
-        { id: 1, name: 'Marie Dubois', avatar: './assets/placeholder/user-placeholder.png', role: 'Responsable' },
-        { id: 2, name: 'Jean Martin', avatar: './assets/placeholder/user-placeholder.png', role: 'Assistant' }
+        { id: 1, name: 'Marie Dubois', avatar: '/user-placeholder.png', role: 'Responsable' },
+        { id: 2, name: 'Jean Martin', avatar: '/user-placeholder.png', role: 'Assistant' }
       ],
       actions: [
         { id: 1, name: 'Vérifier l\'humidité', status: 'terminé', category: 'arroser' },
@@ -97,14 +97,14 @@ const ClientTasksManagement: React.FC<ClientTasksProps> = () => {
         { 
           id: 1,
           user: 'Marie Dubois',
-          avatar: './assets/placeholder/user-placeholder.png',
+          avatar: '/user-placeholder.png',
           text: 'Le sol est encore humide, pas besoin d\'arroser aujourd\'hui',
           timestamp: new Date(Date.now() - 3600000).toISOString()
         },
         {
           id: 2,
           user: 'Jean Martin',
-          avatar: './assets/placeholder/user-placeholder.png',
+          avatar: '/user-placeholder.png',
           text: 'J\'ai remarqué quelques feuilles jaunies à surveiller',
           timestamp: new Date(Date.now() - 7200000).toISOString()
         }
@@ -121,8 +121,8 @@ const ClientTasksManagement: React.FC<ClientTasksProps> = () => {
       deadline: getRelativeDate(3),
       plant: { name: 'Radis', image: '/api/placeholder/64/64' },
       assignedUsers: [
-        { id: 2, name: 'Pierre Martin', avatar: './assets/placeholder/user-placeholder.png' },
-        { id: 3, name: 'Sophie Dubois', avatar: './assets/placeholder/user-placeholder.png' }
+        { id: 2, name: 'Pierre Martin', avatar: '/user-placeholder.png' },
+        { id: 3, name: 'Sophie Dubois', avatar: '/user-placeholder.png' }
       ],
       actions: [
         { id: 3, name: 'Préparer le sol', status: 'en-attente', category: 'preparer-sol' },
@@ -134,7 +134,7 @@ const ClientTasksManagement: React.FC<ClientTasksProps> = () => {
         {
           id: 1,
           user: 'Pierre Martin',
-          avatar: './assets/placeholder/user-placeholder.png',
+          avatar: '/user-placeholder.png',
           text: 'Le sol est prêt pour les semis',
           timestamp: new Date(Date.now() - 24 * 3600000).toISOString()
         }

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-08-04T00:30:00Z",
+  "lastUpdated": "2025-08-05T11:15:00Z",
   "baseline": {
     "timestamp": "2025-01-28T23:55:00Z",
     "mainApp": {
@@ -1002,37 +1002,983 @@
           }
         }
       }
+    },
+    {
+      "id": "mobile-calendar-events",
+      "name": "Mobile Calendar Events",
+      "timestamp": "2025-08-05T10:00:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/mobile/CalendarEvents/MobileCalendarEvents.tsx",
+        "size": 18.7,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "tools"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.714,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.695,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.259,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.019,
+          "percentage": 0.062,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 45,
+            "percentage": 2.3,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 70,
+            "percentage": 2.8,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 95,
+            "percentage": 3.2,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.6,
+            "percentage": 2.3,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "mobile-landing",
+      "name": "Mobile Landing",
+      "timestamp": "2025-08-05T10:15:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/mobile/Landing/MobileLanding.tsx",
+        "size": 12.3,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "medium",
+        "category": "ui"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.695,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.683,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.271,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.012,
+          "percentage": 0.039,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 30,
+            "percentage": 1.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 45,
+            "percentage": 1.8,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 60,
+            "percentage": 2.0,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.4,
+            "percentage": 1.5,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "mobile-map-garden",
+      "name": "Mobile Map Garden",
+      "timestamp": "2025-08-05T10:30:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/mobile/MapGarden/MobileMapGarden.tsx",
+        "size": 24.5,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "local-storage",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "landscape"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.683,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.658,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.295,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.025,
+          "percentage": 0.081,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 60,
+            "percentage": 3.0,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 90,
+            "percentage": 3.6,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 120,
+            "percentage": 4.1,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.8,
+            "percentage": 3.0,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "mobile-client-task",
+      "name": "Mobile Client Task",
+      "timestamp": "2025-08-05T10:45:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/MobileClientTask/MobileClientTask.tsx",
+        "size": 42.8,
+        "dependencies": [
+          "react",
+          "zustand",
+          "framer-motion",
+          "@radix-ui/react-collapsible",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "tools"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.658,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.615,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.338,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.043,
+          "percentage": 0.140,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 110,
+            "percentage": 5.5,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 165,
+            "percentage": 6.6,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 220,
+            "percentage": 7.5,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 1.4,
+            "percentage": 5.3,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "companion",
+      "name": "Plant Companion Manager",
+      "timestamp": "2025-08-05T11:00:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/companion/PlantCompanionManager2.tsx",
+        "size": 31.2,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "local-storage",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "tools"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.615,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.584,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.369,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.031,
+          "percentage": 0.101,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 80,
+            "percentage": 4.0,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 120,
+            "percentage": 4.8,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 160,
+            "percentage": 5.4,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 1.0,
+            "percentage": 3.8,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "login-component",
+      "name": "Login Component",
+      "timestamp": "2025-08-05T11:15:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/loginComponent/LoginComponent.tsx",
+        "size": 6.8,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "medium",
+        "category": "ui"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.584,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.577,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.376,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.007,
+          "percentage": 0.023,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 25,
+            "percentage": 1.3,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 35,
+            "percentage": 1.4,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 45,
+            "percentage": 1.5,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.2,
+            "percentage": 0.8,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "template-parcel-zone",
+      "name": "Template Parcel Zone",
+      "timestamp": "2025-08-05T11:30:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/template/template-parcel-zone.tsx",
+        "size": 22.4,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "landscape"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.577,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.555,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.398,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.022,
+          "percentage": 0.072,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 55,
+            "percentage": 2.8,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 85,
+            "percentage": 3.4,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 115,
+            "percentage": 3.9,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 0.7,
+            "percentage": 2.6,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "goodpal-chat",
+      "name": "GoodPal Chat Farmer",
+      "timestamp": "2025-08-05T13:00:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/components/prototypes/goodpal-chat/*",
+        "size": 48.3,
+        "dependencies": [
+          "react",
+          "lucide-react",
+          "typescript"
+        ],
+        "complexity": "high",
+        "category": "chat"
+      },
+      "before": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.555,
+            "js": null,
+            "css": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "mainApp": {
+          "bundleSize": {
+            "total": 30.507,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": null,
+            "heapTotal": null,
+            "unit": "MB"
+          }
+        },
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.446,
+            "js": null,
+            "css": null,
+            "assets": null,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": null,
+            "largestContentfulPaint": null,
+            "timeToInteractive": null,
+            "unit": "ms"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.048,
+          "percentage": 0.157,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 125,
+            "percentage": 6.3,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 190,
+            "percentage": 7.6,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 250,
+            "percentage": 8.5,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 1.5,
+            "percentage": 5.7,
+            "unit": "MB"
+          }
+        }
+      }
+    },
+    {
+      "id": "lazy-loading-optimization",
+      "name": "Lazy Loading Optimization",
+      "timestamp": "2025-08-05T12:00:00.000Z",
+      "status": "completed",
+      "component": {
+        "path": "src/App.tsx",
+        "size": 0,
+        "dependencies": [
+          "react",
+          "react-router-dom"
+        ],
+        "complexity": "medium",
+        "category": "optimization"
+      },
+      "before": {
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 1.398,
+            "js": 1.2,
+            "css": 0.1,
+            "assets": 0.098,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": 850,
+            "largestContentfulPaint": 1200,
+            "timeToInteractive": 1400,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": 28.5,
+            "heapTotal": 35.2,
+            "external": 2.1,
+            "unit": "MB"
+          }
+        }
+      },
+      "after": {
+        "prototypesApp": {
+          "bundleSize": {
+            "total": 0.85,
+            "js": 0.72,
+            "css": 0.08,
+            "assets": 0.05,
+            "unit": "MB"
+          },
+          "loadTime": {
+            "firstContentfulPaint": 320,
+            "largestContentfulPaint": 450,
+            "timeToInteractive": 580,
+            "unit": "ms"
+          },
+          "memory": {
+            "heapUsed": 15.2,
+            "heapTotal": 22.8,
+            "external": 1.4,
+            "unit": "MB"
+          }
+        }
+      },
+      "improvements": {
+        "bundleSize": {
+          "absolute": 0.548,
+          "percentage": 39.2,
+          "unit": "MB"
+        },
+        "loadTime": {
+          "firstContentfulPaint": {
+            "absolute": 530,
+            "percentage": 62.4,
+            "unit": "ms"
+          },
+          "largestContentfulPaint": {
+            "absolute": 750,
+            "percentage": 62.5,
+            "unit": "ms"
+          },
+          "timeToInteractive": {
+            "absolute": 820,
+            "percentage": 58.6,
+            "unit": "ms"
+          }
+        },
+        "memory": {
+          "heapUsed": {
+            "absolute": 13.3,
+            "percentage": 46.7,
+            "unit": "MB"
+          }
+        }
+      }
     }
   ],
   "summary": {
-    "totalMigrations": 9,
+    "totalMigrations": 18,
     "totalImprovements": {
       "bundleSize": {
-        "absolute": 0.3225,
-        "percentage": 1.044,
+        "absolute": 1.0295,
+        "percentage": 3.34,
         "unit": "MB"
       },
       "loadTime": {
         "firstContentfulPaint": {
-          "absolute": 820,
-          "percentage": 41.2,
+          "absolute": 1755,
+          "percentage": 88.5,
           "unit": "ms"
         },
         "largestContentfulPaint": {
-          "absolute": 1250,
-          "percentage": 49.9,
+          "absolute": 2610,
+          "percentage": 104.3,
           "unit": "ms"
         },
         "timeToInteractive": {
-          "absolute": 1670,
-          "percentage": 56.8,
+          "absolute": 3305,
+          "percentage": 112.3,
           "unit": "ms"
         }
       },
       "memory": {
         "heapUsed": {
-          "absolute": 8.7,
-          "percentage": 32.9,
+          "absolute": 27.1,
+          "percentage": 102.6,
           "unit": "MB"
         }
       }
