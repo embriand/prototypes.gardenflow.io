@@ -6,6 +6,20 @@ import { loadPerformanceData, getPerformanceStats, generateInsights, isPerforman
 const prototypes = [
   // Desktop Prototypes
   {
+    id: 'parcel-zone-matrix',
+    title: 'Parcel-Zone Matrix View',
+    path: '/parcel-zone-matrix',
+    description: 'Advanced matrix view for crop planning with parcels as rows, zones as columns, and timeline visualization',
+    status: 'active',
+    lastModified: '2025-08-16',
+    featured: true,
+    category: 'landscape',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    complexity: 'high',
+    platform: 'desktop'
+  },
+  {
     id: 'enhanced-parcel-zone-crops',
     title: 'Enhanced Parcel-Zone-Crops',
     path: '/enhanced-parcel-zone-crops',

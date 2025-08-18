@@ -31,6 +31,7 @@ const Companion = lazy(() => import('./prototypes/companion'))
 const LoginComponent = lazy(() => import('./prototypes/login-component'))
 const TemplateParcelZone = lazy(() => import('./prototypes/template-parcel-zone'))
 const GoodPalChat = lazy(() => import('./prototypes/goodpal-chat'))
+const ParcelZoneMatrix = lazy(() => import('./prototypes/parcel-zone-matrix'))
 
 function App() {
   return (
@@ -167,6 +168,11 @@ function App() {
             <Route path="/goodpal-chat" element={
               <Suspense fallback={<LoadingFallback message="Loading GoodPal Chat..." />}>
                 <GoodPalChat />
+              </Suspense>
+            } />
+            <Route path="/parcel-zone-matrix" element={
+              <Suspense fallback={<LoadingFallback message="Loading Parcel Zone Matrix..." />}>
+                <ParcelZoneMatrix />
               </Suspense>
             } />
           </Routes>
