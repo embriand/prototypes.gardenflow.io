@@ -41,7 +41,8 @@ import {
   Trees,
   PackageSearch,
   SquareChartGantt,
-  Grid3X3
+  Grid3X3,
+  CheckSquare
 } from 'lucide-react';
 // Logo will be loaded from main app URL
 import './styles.css';
@@ -78,6 +79,7 @@ const AuthHybridEnhanced: React.FC = () => {
   const previews = [
     { name: 'Tableau de Bord', icon: Home },
     { name: 'Studio+', icon: Palette },
+    { name: 'Tâches', icon: CheckSquare },
     { name: 'Parcelles', icon: MapPin },
     { name: 'Budget', icon: TrendingUp },
     { name: 'Inventaire', icon: PackageSearch },
@@ -325,8 +327,30 @@ const AuthHybridEnhanced: React.FC = () => {
                 </div>
                 
                 {/* Multiple parcels filling the canvas */}
-                {/* Large parcel top-left */}
+                {/* Large parcel top-left with right-click menu */}
                 <div className="absolute top-1 left-1 w-[30%] h-[45%] border border-green-400 bg-green-100/30">
+                  {/* Right-click context menu - skeleton only */}
+                  <div className="absolute top-4 left-4 z-10 bg-white/90 backdrop-blur rounded-lg shadow-lg border border-gray-200 p-1.5">
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-100 rounded cursor-pointer">
+                        <div className="w-2.5 h-2.5 bg-blue-400 rounded"></div>
+                        <div className="h-1.5 w-12 bg-gray-300 rounded"></div>
+                      </div>
+                      <div className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-100 rounded cursor-pointer">
+                        <div className="w-2.5 h-2.5 bg-green-400 rounded"></div>
+                        <div className="h-1.5 w-14 bg-gray-300 rounded"></div>
+                      </div>
+                      <div className="border-t border-gray-200 my-0.5"></div>
+                      <div className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-100 rounded cursor-pointer">
+                        <div className="w-2.5 h-2.5 bg-orange-400 rounded"></div>
+                        <div className="h-1.5 w-10 bg-gray-300 rounded"></div>
+                      </div>
+                      <div className="flex items-center gap-2 px-2 py-1.5 hover:bg-gray-100 rounded cursor-pointer">
+                        <div className="w-2.5 h-2.5 bg-red-400 rounded"></div>
+                        <div className="h-1.5 w-11 bg-gray-300 rounded"></div>
+                      </div>
+                    </div>
+                  </div>
                   <div className="grid grid-cols-3 grid-rows-3 gap-0.5 p-0.5 h-full">
                     {/* Zones with crops inside */}
                     <div className="bg-blue-200/40 border border-blue-300/50">
@@ -580,7 +604,97 @@ const AuthHybridEnhanced: React.FC = () => {
           </div>
         );
 
-      case 2: // Parcelles  
+      case 2: // Tâches
+        return (
+          <div className="h-full flex flex-col gap-2">
+            {/* Top Stats */}
+            <div className="flex gap-2">
+              <div className="flex-1 bg-blue-50 rounded p-1.5">
+                <div className="flex justify-between items-center">
+                  <div className="h-1.5 w-8 bg-gray-300 rounded"></div>
+                  <div className="h-3 w-3 bg-blue-400 rounded-full"></div>
+                </div>
+                <div className="h-2 w-6 bg-blue-500 rounded mt-1"></div>
+              </div>
+              <div className="flex-1 bg-orange-50 rounded p-1.5">
+                <div className="flex justify-between items-center">
+                  <div className="h-1.5 w-8 bg-gray-300 rounded"></div>
+                  <div className="h-3 w-3 bg-orange-400 rounded-full"></div>
+                </div>
+                <div className="h-2 w-6 bg-orange-500 rounded mt-1"></div>
+              </div>
+              <div className="flex-1 bg-green-50 rounded p-1.5">
+                <div className="flex justify-between items-center">
+                  <div className="h-1.5 w-8 bg-gray-300 rounded"></div>
+                  <div className="h-3 w-3 bg-green-400 rounded-full"></div>
+                </div>
+                <div className="h-2 w-6 bg-green-500 rounded mt-1"></div>
+              </div>
+            </div>
+
+            {/* Task List */}
+            <div className="flex-1 bg-white/50 rounded-lg p-2 overflow-auto">
+              <div className="space-y-1.5">
+                {[
+                  { priority: 'high', status: 'progress' },
+                  { priority: 'medium', status: 'todo' },
+                  { priority: 'low', status: 'done' },
+                  { priority: 'high', status: 'todo' },
+                  { priority: 'medium', status: 'progress' },
+                  { priority: 'low', status: 'todo' }
+                ].map((task, i) => (
+                  <div key={i} className="flex items-center gap-2 bg-gray-50 rounded p-1.5">
+                    {/* Checkbox */}
+                    <div className={`w-3 h-3 rounded border-2 ${
+                      task.status === 'done' ? 'bg-green-400 border-green-400' : 'border-gray-300'
+                    }`}></div>
+                    
+                    {/* Priority indicator */}
+                    <div className={`w-1 h-4 rounded ${
+                      task.priority === 'high' ? 'bg-red-400' :
+                      task.priority === 'medium' ? 'bg-orange-400' :
+                      'bg-blue-400'
+                    }`}></div>
+                    
+                    {/* Task title */}
+                    <div className="flex-1">
+                      <div className="h-1.5 w-24 bg-gray-300 rounded mb-0.5"></div>
+                      <div className="h-1 w-16 bg-gray-200 rounded"></div>
+                    </div>
+                    
+                    {/* Assignee */}
+                    <div className="w-4 h-4 bg-gray-300 rounded-full"></div>
+                    
+                    {/* Due date */}
+                    <div className="h-1.5 w-10 bg-gray-200 rounded"></div>
+                    
+                    {/* Status badge */}
+                    <div className={`h-2 w-8 rounded ${
+                      task.status === 'done' ? 'bg-green-200' :
+                      task.status === 'progress' ? 'bg-blue-200' :
+                      'bg-gray-200'
+                    }`}></div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Quick Actions */}
+            <div className="flex gap-1">
+              <div className="flex-1 h-6 bg-green-100 rounded flex items-center justify-center">
+                <div className="w-3 h-3 bg-green-400 rounded"></div>
+              </div>
+              <div className="flex-1 h-6 bg-blue-100 rounded flex items-center justify-center">
+                <div className="w-3 h-3 bg-blue-400 rounded"></div>
+              </div>
+              <div className="flex-1 h-6 bg-gray-100 rounded flex items-center justify-center">
+                <div className="w-3 h-3 bg-gray-400 rounded"></div>
+              </div>
+            </div>
+          </div>
+        );
+
+      case 3: // Parcelles  
         return (
           <div className="h-full flex flex-col gap-2">
             {/* Search Bar */}
@@ -646,7 +760,7 @@ const AuthHybridEnhanced: React.FC = () => {
           </div>
         );
 
-      case 3: // Budget
+      case 4: // Budget
         return (
           <div className="h-full flex flex-col gap-2">
             {/* Top Financial Stats */}
@@ -800,7 +914,7 @@ const AuthHybridEnhanced: React.FC = () => {
           </div>
         );
 
-      case 4: // Inventaire
+      case 5: // Inventaire
         return (
           <div className="h-full flex flex-col gap-2">
             {/* Top Stats Bar */}
@@ -878,7 +992,7 @@ const AuthHybridEnhanced: React.FC = () => {
           </div>
         );
 
-      case 5: // Cultures (Gantt View)
+      case 6: // Cultures (Gantt View)
         return (
           <div className="h-full flex flex-col">
             {/* Gantt Chart Skeleton */}
@@ -919,13 +1033,33 @@ const AuthHybridEnhanced: React.FC = () => {
                   </div>
                 </div>
                 
-                {/* Crops in Zone 1 */}
-                <div className="flex gap-1 flex-1">
+                {/* Crops in Zone 1 with Tooltip */}
+                <div className="flex gap-1 flex-1 relative">
                   <div className="w-24 pl-4 flex items-center">
                     <div className="h-3 w-10 bg-gray-200 rounded"></div>
                   </div>
-                  <div className="flex-1 flex items-center">
+                  <div className="flex-1 flex items-center relative">
                     <div className="h-5 bg-orange-300 rounded" style={{marginLeft: '10%', width: '25%'}}></div>
+                    {/* Tooltip appearing over this gantt bar - skeleton only */}
+                    <div className="absolute top-[-40px] left-[15%] z-10 bg-gray-900/95 backdrop-blur rounded-lg shadow-xl p-2.5 whitespace-nowrap">
+                      <div className="h-2 w-20 bg-gray-400 rounded mb-2"></div>
+                      <div className="space-y-1">
+                        <div className="flex gap-3">
+                          <div className="h-1.5 w-8 bg-gray-500 rounded"></div>
+                          <div className="h-1.5 w-12 bg-gray-300 rounded"></div>
+                        </div>
+                        <div className="flex gap-3">
+                          <div className="h-1.5 w-10 bg-gray-500 rounded"></div>
+                          <div className="h-1.5 w-10 bg-gray-300 rounded"></div>
+                        </div>
+                        <div className="flex gap-3">
+                          <div className="h-1.5 w-12 bg-gray-500 rounded"></div>
+                          <div className="h-1.5 w-8 bg-green-400 rounded"></div>
+                        </div>
+                      </div>
+                      {/* Tooltip arrow pointing down */}
+                      <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-gray-900/95 transform rotate-45"></div>
+                    </div>
                   </div>
                 </div>
                 
@@ -999,7 +1133,7 @@ const AuthHybridEnhanced: React.FC = () => {
           </div>
         );
 
-      case 6: // Arbres (Gantt View)
+      case 7: // Arbres (Gantt View)
         return (
           <div className="h-full flex flex-col">
             {/* Tree Season Gantt Skeleton */}
@@ -1123,8 +1257,8 @@ const AuthHybridEnhanced: React.FC = () => {
 
   return (
     <div className="auth-hybrid-enhanced min-h-screen flex flex-col lg:flex-row">
-      {/* Left Side - Auth Form */}
-      <div className="w-full lg:w-1/2 bg-white flex flex-col h-screen">
+      {/* Left Side - Auth Form - Reduced width */}
+      <div className="w-full lg:w-2/5 bg-white flex flex-col h-screen">
         {/* Header */}
         <header className="p-4 lg:p-6 flex justify-end items-center flex-shrink-0">
           <div className="flex items-center gap-4">
@@ -1483,17 +1617,17 @@ const AuthHybridEnhanced: React.FC = () => {
         </div>
       </div>
 
-      {/* Right Side - Combined Glassy Card */}
-      <div className="hidden lg:block lg:w-1/2 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50 relative overflow-hidden">
-        {/* Single Glassy Container */}
-        <div className="h-full flex items-center justify-center p-6">
-          <div className="w-full max-w-2xl backdrop-blur-2xl bg-white/20 rounded-3xl shadow-2xl border border-white/40 overflow-hidden">
+      {/* Right Side - Combined Glassy Card - Expanded width */}
+      <div className="hidden lg:block lg:w-3/5 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50 relative overflow-hidden">
+        {/* Single Glassy Container - Full Width */}
+        <div className="h-full flex items-center justify-center p-4">
+          <div className="w-full max-w-4xl backdrop-blur-2xl bg-white/20 rounded-3xl shadow-2xl border border-white/40 overflow-hidden">
             {/* Header Section with Features */}
-            <div className="p-6 bg-gradient-to-b from-white/50 to-white/30 backdrop-blur-xl border-b border-white/30">
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-4">
+            <div className="p-8 bg-gradient-to-b from-white/50 to-white/30 backdrop-blur-xl border-b border-white/30">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-5">
                 Solution complète de gestion de jardin
               </h2>
-              <div className="grid grid-cols-2 gap-2.5">
+              <div className="grid grid-cols-4 gap-3">
                 <div className="flex items-center gap-2.5 backdrop-blur-2xl bg-white/40 rounded-xl p-2.5 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
                   <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-lg p-2 shadow-lg">
                     <Map className="w-4 h-4 text-white drop-shadow" />
@@ -1522,14 +1656,14 @@ const AuthHybridEnhanced: React.FC = () => {
             </div>
             
             {/* Preview Section */}
-            <div className="p-5 bg-gradient-to-b from-white/25 to-white/15 backdrop-blur-xl">
-              {/* Glassy Tab Navigation */}
-              <div className="flex items-center gap-1 mb-3 flex-wrap">
+            <div className="p-6 bg-gradient-to-b from-white/25 to-white/15 backdrop-blur-xl">
+              {/* Glassy Tab Navigation - Single Row */}
+              <div className="flex items-center gap-1 mb-4 overflow-x-auto">
                 {previews.map((preview, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentPreview(index)}
-                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg backdrop-blur-2xl transition-all ${
+                    className={`flex items-center gap-1.5 px-3 py-2 rounded-lg backdrop-blur-2xl transition-all whitespace-nowrap flex-shrink-0 ${
                       currentPreview === index
                         ? 'bg-white/70 shadow-lg text-green-600 font-semibold border border-white/70'
                         : 'bg-white/25 text-gray-600 hover:bg-white/35 border border-white/20'
@@ -1542,8 +1676,8 @@ const AuthHybridEnhanced: React.FC = () => {
                 ))}
               </div>
               
-              {/* Skeleton Preview with Glassy Effect */}
-              <div className="bg-white/40 backdrop-blur-2xl rounded-xl shadow-xl p-3 h-[320px] overflow-hidden border border-white/60">
+              {/* Skeleton Preview with Glassy Effect - Increased Height */}
+              <div className="bg-white/40 backdrop-blur-2xl rounded-xl shadow-xl p-4 h-[400px] overflow-hidden border border-white/60">
                 {renderSkeletonPreview()}
               </div>
               
