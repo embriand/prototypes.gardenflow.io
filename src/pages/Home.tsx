@@ -4,7 +4,63 @@ import { Layers, Star, Clock, Zap, Code2, TestTube, Rocket, Gauge, Shield, Spark
 import { loadPerformanceData, getPerformanceStats, generateInsights, isPerformanceDataCurrent, type PerformanceData } from '../utils/performanceUtils'
 
 const prototypes = [
-  // Desktop Prototypes
+  // Desktop Prototypes - Auth Options
+  {
+    id: 'auth-gateway',
+    title: '1. Minimal Auth Gateway',
+    path: '/auth-gateway',
+    description: 'Clean login/signup page with language selector and back to website link - Minimal, focused design',
+    status: 'active',
+    lastModified: new Date().toISOString().split('T')[0],
+    featured: true,
+    category: 'auth',
+    size: 'medium',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    complexity: 'low',
+    platform: 'desktop'
+  },
+  {
+    id: 'app-shell-skeleton',
+    title: '2. App Shell with Skeleton',
+    path: '/app-shell-skeleton',
+    description: 'Preview of dashboard with blurred skeleton UI and login modal overlay - Shows app structure',
+    status: 'active',
+    lastModified: new Date().toISOString().split('T')[0],
+    featured: true,
+    category: 'auth',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    complexity: 'medium',
+    platform: 'desktop'
+  },
+  {
+    id: 'auth-hybrid',
+    title: '3. Hybrid Auth (Split Screen)',
+    path: '/auth-hybrid',
+    description: 'Split screen with auth forms on left and animated dashboard preview on right - Best of both',
+    status: 'active',
+    lastModified: new Date().toISOString().split('T')[0],
+    featured: true,
+    category: 'auth',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    complexity: 'high',
+    platform: 'desktop'
+  },
+  {
+    id: 'auth-hybrid-enhanced',
+    title: '4. Enhanced Hybrid Auth',
+    path: '/auth-hybrid-enhanced',
+    description: 'Improved split screen with multiple skeleton previews (Dashboard, Crops, Budget, Studio+) and refined UI',
+    status: 'active',
+    lastModified: new Date().toISOString().split('T')[0],
+    featured: true,
+    category: 'auth',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    complexity: 'high',
+    platform: 'desktop'
+  },
   {
     id: 'landing-page-noauth',
     title: 'Landing Page (No Auth)',
@@ -12,7 +68,7 @@ const prototypes = [
     description: 'GardenFlow landing page with all sections - Features, Benefits, Testimonials, Pricing - without authentication',
     status: 'active',
     lastModified: new Date().toISOString().split('T')[0],
-    featured: true,
+    featured: false,
     category: 'pages',
     size: 'large',
     technologies: ['React', 'TypeScript', 'Tailwind'],

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond transparent -->
+  <rect width="300" height="80" fill="transparent" />
+  
+  <!-- Premier mot: Garden (vert) -->
+  <text x="10" y="50" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#16a34a">
+    Garden
+  </text>
+  
+  <!-- Deuxième mot: Flow (orange) -->
+  <text x="138" y="50" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#f97316">
+    Flow
+  </text>
+    
+  <!-- Effet 3D subtil -->
+  <text x="10" y="53" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#15803d" opacity="0.3">
+    Garden
+  </text>
+  
+  <text x="138" y="53" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#ea580c" opacity="0.3">
+    Flow
+  </text>
+</svg>

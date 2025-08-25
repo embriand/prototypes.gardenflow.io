@@ -12,7 +12,11 @@ const Layout = ({ children }: LayoutProps) => {
   
   // Full-page prototypes that should not show the Layout header/footer
   const fullPagePrototypes = [
-    '/landing-page-noauth'
+    '/landing-page-noauth',
+    '/auth-gateway',
+    '/app-shell-skeleton',
+    '/auth-hybrid',
+    '/auth-hybrid-enhanced'
   ]
   const isFullPage = fullPagePrototypes.includes(location.pathname)
 
