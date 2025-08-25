@@ -20,20 +20,6 @@ const prototypes = [
     platform: 'desktop'
   },
   {
-    id: 'gardenflow-main',
-    title: 'GardenFlow Dashboard (No Auth)',
-    path: '/gardenflow-main',
-    description: 'Full GardenFlow dashboard layout without authentication - Test all main features and navigation',
-    status: 'active',
-    lastModified: new Date().toISOString().split('T')[0],
-    featured: true,
-    category: 'system',
-    size: 'large',
-    technologies: ['React', 'TypeScript', 'Tailwind'],
-    complexity: 'high',
-    platform: 'desktop'
-  },
-  {
     id: 'parcel-zone-matrix',
     title: 'Parcel-Zone Matrix View',
     path: '/parcel-zone-matrix',

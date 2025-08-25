@@ -12,8 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
   
   // Full-page prototypes that should not show the Layout header/footer
   const fullPagePrototypes = [
-    '/landing-page-noauth',
-    '/gardenflow-main'
+    '/landing-page-noauth'
   ]
   const isFullPage = fullPagePrototypes.includes(location.pathname)
 
