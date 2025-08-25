@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import LoadingFallback from './components/LoadingFallback'
 
 // Lazy load all prototype components
+const GardenFlowMain = lazy(() => import('./prototypes/gardenflow-main'))
+const LandingPageNoAuth = lazy(() => import('./prototypes/landing-page-noauth'))
 const EnhancedParcelZoneCrops = lazy(() => import('./prototypes/enhanced-parcel-zone-crops'))
 const DynamicSearchBar = lazy(() => import('./prototypes/dynamic-search-bar'))
 const CanvasViewer = lazy(() => import('./prototypes/canvas-viewer'))
@@ -40,6 +42,16 @@ function App() {
         <Suspense fallback={<LoadingFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/gardenflow-main" element={
+              <Suspense fallback={<LoadingFallback message="Loading GardenFlow Main..." />}>
+                <GardenFlowMain />
+              </Suspense>
+            } />
+            <Route path="/landing-page-noauth" element={
+              <Suspense fallback={<LoadingFallback message="Loading Landing Page..." />}>
+                <LandingPageNoAuth />
+              </Suspense>
+            } />
             <Route path="/enhanced-parcel-zone-crops" element={
               <Suspense fallback={<LoadingFallback message="Loading Enhanced Parcel Zone Crops..." />}>
                 <EnhancedParcelZoneCrops />

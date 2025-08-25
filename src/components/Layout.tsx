@@ -9,6 +9,18 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   const location = useLocation()
   const isHome = location.pathname === '/'
+  
+  // Full-page prototypes that should not show the Layout header/footer
+  const fullPagePrototypes = [
+    '/landing-page-noauth',
+    '/gardenflow-main'
+  ]
+  const isFullPage = fullPagePrototypes.includes(location.pathname)
+
+  // If it's a full-page prototype, render children directly
+  if (isFullPage) {
+    return <>{children}</>
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">

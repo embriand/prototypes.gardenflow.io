@@ -1,0 +1,64 @@
+/* Landing Page No Auth Styles */
+
+.landing-page-noauth {
+  scroll-behavior: smooth;
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.landing-page-noauth .animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Custom gradients */
+.landing-page-noauth .gradient-mask {
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+}
+
+/* Pricing card hover effects */
+.landing-page-noauth .pricing-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landing-page-noauth .pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth section transitions */
+.landing-page-noauth section {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Custom scrollbar for demo */
+.landing-page-noauth::-webkit-scrollbar {
+  width: 10px;
+}
+
+.landing-page-noauth::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.landing-page-noauth::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #10b981, #3b82f6);
+  border-radius: 5px;
+}
+
+.landing-page-noauth::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #059669, #2563eb);
+}
