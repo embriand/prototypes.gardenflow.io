@@ -42,7 +42,16 @@ import {
   PackageSearch,
   SquareChartGantt,
   Grid3X3,
-  CheckSquare
+  CheckSquare,
+  Pencil,
+  Layout,
+  GitBranch,
+  Bell,
+  Gauge,
+  Wallet,
+  LineChart,
+  BookOpen,
+  Flower2
 } from 'lucide-react';
 // Logo will be loaded from main app URL
 import './styles.css';
@@ -1623,55 +1632,113 @@ const AuthHybridEnhanced: React.FC = () => {
         <div className="h-full flex items-center justify-center p-4">
           <div className="w-full max-w-4xl backdrop-blur-2xl bg-white/20 rounded-3xl shadow-2xl border border-white/40 overflow-hidden">
             {/* Header Section with Features */}
-            <div className="p-8 bg-gradient-to-b from-white/50 to-white/30 backdrop-blur-xl border-b border-white/30">
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-5">
-                Solution complète de gestion de jardin
+            <div className="p-5 bg-gradient-to-b from-white/50 to-white/30 backdrop-blur-xl border-b border-white/30">
+              <h2 className="text-xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-3 whitespace-nowrap">
+                GardenFlow - La plateforme intuitive tout-en-un pour jardiner comme un pro
               </h2>
-              <div className="grid grid-cols-4 gap-3">
-                <div className="flex items-center gap-2.5 backdrop-blur-2xl bg-white/40 rounded-xl p-2.5 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
-                  <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-lg p-2 shadow-lg">
-                    <Map className="w-4 h-4 text-white drop-shadow" />
+              <div className="grid grid-cols-2 gap-2">
+                {/* Conception & Visualisation */}
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg p-1.5 shadow-lg">
+                    <Pencil className="w-3.5 h-3.5 text-white drop-shadow" />
                   </div>
-                  <span className="text-gray-700 text-xs font-medium">Conception et planification</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Conception et design 2D</div>
+                    <div className="text-[11px] text-gray-600 truncate">Dessinez, organisez, optimisez vos espaces</div>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2.5 backdrop-blur-2xl bg-white/40 rounded-xl p-2.5 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
-                  <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg p-2 shadow-lg">
-                    <TrendingUp className="w-4 h-4 text-white drop-shadow" />
+                
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-lg p-1.5 shadow-lg">
+                    <Layout className="w-3.5 h-3.5 text-white drop-shadow" />
                   </div>
-                  <span className="text-gray-700 text-xs font-medium">Gestion budgétaire</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Tableau de bord détaillé</div>
+                    <div className="text-[11px] text-gray-600 truncate">Paysager, horticole, potager, verger</div>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2.5 backdrop-blur-2xl bg-white/40 rounded-xl p-2.5 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
-                  <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg p-2 shadow-lg">
-                    <Calendar className="w-4 h-4 text-white drop-shadow" />
+                
+                {/* Planification & Optimisation */}
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-green-400 to-green-600 rounded-lg p-1.5 shadow-lg">
+                    <Calendar className="w-3.5 h-3.5 text-white drop-shadow" />
                   </div>
-                  <span className="text-gray-700 text-xs font-medium">Calendrier de culture</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Planification des cultures</div>
+                    <div className="text-[11px] text-gray-600 truncate">Optimisez rotations, associations et traçabilité</div>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2.5 backdrop-blur-2xl bg-white/40 rounded-xl p-2.5 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
-                  <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg p-2 shadow-lg">
-                    <BarChart3 className="w-4 h-4 text-white drop-shadow" />
+                
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-lime-400 to-lime-600 rounded-lg p-1.5 shadow-lg">
+                    <GitBranch className="w-3.5 h-3.5 text-white drop-shadow" />
                   </div>
-                  <span className="text-gray-700 text-xs font-medium">Analyses et tableaux de bord</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Associations optimisées</div>
+                    <div className="text-[11px] text-gray-600 truncate">Recommandations pour vos cultures</div>
+                  </div>
+                </div>
+                
+                {/* Gestion & Pilotage */}
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg p-1.5 shadow-lg">
+                    <Gauge className="w-3.5 h-3.5 text-white drop-shadow" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Pilotage en temps réel</div>
+                    <div className="text-[11px] text-gray-600 truncate">Tâches, alertes et rappels automatisés</div>
+                  </div>
+                </div>
+                
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg p-1.5 shadow-lg">
+                    <Wallet className="w-3.5 h-3.5 text-white drop-shadow" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Suivi budgétaire temps réel</div>
+                    <div className="text-[11px] text-gray-600 truncate">Maîtrisez vos coûts et revenus instantanément</div>
+                  </div>
+                </div>
+                
+                {/* Analyse & Ressources */}
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg p-1.5 shadow-lg">
+                    <LineChart className="w-3.5 h-3.5 text-white drop-shadow" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Analyse de rendement</div>
+                    <div className="text-[11px] text-gray-600 truncate">Suivez et améliorez vos performances</div>
+                  </div>
+                </div>
+                
+                <div className="flex items-center gap-2 backdrop-blur-2xl bg-white/40 rounded-xl p-2 border border-white/50 shadow-sm hover:bg-white/50 transition-all">
+                  <div className="bg-gradient-to-br from-pink-400 to-pink-600 rounded-lg p-1.5 shadow-lg">
+                    <BookOpen className="w-3.5 h-3.5 text-white drop-shadow" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-gray-800">Bibliothèque végétale</div>
+                    <div className="text-[11px] text-gray-600 truncate">Catalogue et conseils de culture (potager, fleurs, arbres)</div>
+                  </div>
                 </div>
               </div>
             </div>
             
             {/* Preview Section */}
-            <div className="p-6 bg-gradient-to-b from-white/25 to-white/15 backdrop-blur-xl">
+            <div className="p-4 bg-gradient-to-b from-white/25 to-white/15 backdrop-blur-xl">
               {/* Glassy Tab Navigation - Single Row */}
-              <div className="flex items-center gap-1 mb-4 overflow-x-auto">
+              <div className="flex items-center gap-1 mb-3 overflow-x-auto">
                 {previews.map((preview, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentPreview(index)}
-                    className={`flex items-center gap-1.5 px-3 py-2 rounded-lg backdrop-blur-2xl transition-all whitespace-nowrap flex-shrink-0 ${
+                    className={`flex items-center gap-2 px-4 py-2.5 rounded-lg backdrop-blur-2xl transition-all whitespace-nowrap flex-shrink-0 ${
                       currentPreview === index
                         ? 'bg-white/70 shadow-lg text-green-600 font-semibold border border-white/70'
                         : 'bg-white/25 text-gray-600 hover:bg-white/35 border border-white/20'
                     }`}
-                    style={{ fontSize: '11px' }}
                   >
-                    <preview.icon className="w-3 h-3" />
-                    <span>{preview.name}</span>
+                    <preview.icon className="w-4 h-4" />
+                    <div className="h-2 w-14 bg-gray-400 rounded"></div>
                   </button>
                 ))}
               </div>
