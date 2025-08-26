@@ -6,7 +6,6 @@ import LoadingFallback from './components/LoadingFallback'
 
 // Lazy load all prototype components
 const LandingPageNoAuth = lazy(() => import('./prototypes/landing-page-noauth'))
-const AuthGateway = lazy(() => import('./prototypes/auth-gateway'))
 const AppShellSkeleton = lazy(() => import('./prototypes/app-shell-skeleton'))
 const AuthHybrid = lazy(() => import('./prototypes/auth-hybrid'))
 const AuthHybridEnhanced = lazy(() => import('./prototypes/auth-hybrid-enhanced'))
@@ -48,11 +47,6 @@ function App() {
             <Route path="/landing-page-noauth" element={
               <Suspense fallback={<LoadingFallback message="Loading Landing Page..." />}>
                 <LandingPageNoAuth />
-              </Suspense>
-            } />
-            <Route path="/auth-gateway" element={
-              <Suspense fallback={<LoadingFallback message="Loading Auth Gateway..." />}>
-                <AuthGateway />
               </Suspense>
             } />
             <Route path="/app-shell-skeleton" element={
