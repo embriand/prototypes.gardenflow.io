@@ -1,0 +1,624 @@
+{
+  "october": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "october-harvest-winter-squash-final",
+          "name": "Courges finales",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte avant gelées",
+          "companions": ["Maïs", "Haricot", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "8-15°C",
+          "color": "bg-orange-600"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "october-sow-garlic-late",
+          "name": "Ail tardif",
+          "emoji": "🧄",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "240-270 jours",
+          "tips": "Dernière plantation possible",
+          "companions": ["Tomate", "Carotte", "Fraisier"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "5-12°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "october-maintain-leaf-collection",
+          "name": "Ramassage feuilles",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1-2 jours",
+          "tips": "Collecter feuilles pour compost",
+          "companions": ["Feuilles mortes"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "5-15°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "october-harvest-leeks",
+          "name": "Poireaux",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Début récolte, résistant au froid",
+          "companions": ["Carotte", "Céleri", "Tomate"],
+          "sunExposure": "full",
+          "weather": "Humide",
+          "temperature": "3-12°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "october-sow-broad-beans-late",
+          "name": "Fèves tardives",
+          "emoji": "🫘",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "180-210 jours",
+          "tips": "Derniers semis sous abri",
+          "companions": ["Chou", "Laitue", "Épinards"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "5-12°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "october-maintain-greenhouse-insulation",
+          "name": "Isolation serre",
+          "emoji": "🏠",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Installer isolation thermique",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-blue-200"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "october-harvest-brussels-sprouts",
+          "name": "Choux de Bruxelles",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Meilleur après premières gelées",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "0-8°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "october-sow-winter-onions-final",
+          "name": "Oignons finaux",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "180-210 jours",
+          "tips": "Dernière plantation bulbilles",
+          "companions": ["Carotte", "Poireau", "Laitue"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "3-10°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "october-maintain-winter-protection",
+          "name": "Protection hiver",
+          "emoji": "❄️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1-2 jours",
+          "tips": "Installer protections anti-gel",
+          "companions": ["Cultures sensibles"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "october-harvest-cabbages",
+          "name": "Choux pommés",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte avant fortes gelées",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "2-10°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "october-sow-winter-lettuce-final",
+          "name": "Laitue finale",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Derniers semis sous abri chauffé",
+          "companions": ["Radis", "Carotte", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "october-maintain-soil-covering",
+          "name": "Couverture sol",
+          "emoji": "🌾",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Couvrir parcelles libres",
+          "companions": ["Engrais verts"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "5-12°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "october-harvest-kale",
+          "name": "Chou frisé",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Très résistant au froid",
+          "companions": ["Épinards", "Radis", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-5-8°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "october-sow-winter-spinach-final",
+          "name": "Épinards finaux",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "80-100 jours",
+          "tips": "Derniers semis sous tunnel",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "3-10°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "october-maintain-tool-storage",
+          "name": "Rangement outils",
+          "emoji": "🔧",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Nettoyer et ranger pour l'hiver",
+          "companions": ["Tous outils"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "5-15°C",
+          "color": "bg-gray-600"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "october-harvest-parsnips",
+          "name": "Panais",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Meilleur après gelées, plus sucré",
+          "companions": ["Oignon", "Radis", "Carotte"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-2-8°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "october-sow-winter-radish-final",
+          "name": "Radis finaux",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Derniers semis sous abri",
+          "companions": ["Carotte", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "5-12°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "october-maintain-water-system-drain",
+          "name": "Vidange arrosage",
+          "emoji": "🚰",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Vidanger complètement le système",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "0-8°C",
+          "color": "bg-blue-600"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "october-harvest-turnips",
+          "name": "Navets d'hiver",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte pour conservation",
+          "companions": ["Épinards", "Radis", "Chou"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "0-10°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "october-sow-winter-mache-final",
+          "name": "Mâche finale",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "100-120 jours",
+          "tips": "Derniers semis sous tunnel",
+          "companions": ["Radis", "Épinards", "Oignon"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "0-8°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "october-maintain-greenhouse-heating-test",
+          "name": "Test chauffage",
+          "emoji": "🔥",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Tester système chauffage serre",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "october-harvest-beets-final",
+          "name": "Betteraves finales",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte finale",
+          "tips": "Récolte avant fortes gelées",
+          "companions": ["Oignon", "Chou", "Laitue"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "0-8°C",
+          "color": "bg-red-700"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "october-sow-winter-arugula-final",
+          "name": "Roquette finale",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Derniers semis sous abri chauffé",
+          "companions": ["Radis", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "5-12°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "october-maintain-compost-final",
+          "name": "Compost final",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Derniers ajouts avant hiver",
+          "companions": ["Déchets verts", "Feuilles"],
+          "sunExposure": "partial",
+          "weather": "Humide",
+          "temperature": "5-12°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "october-harvest-carrots-final",
+          "name": "Carottes finales",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte finale",
+          "tips": "Récolte pour conservation cave",
+          "companions": ["Oignon", "Poireau", "Ciboulette"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "0-8°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "october-maintain-plant-covers",
+          "name": "Voiles protection",
+          "emoji": "🛡️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Installer voiles hivernage",
+          "companions": ["Cultures sensibles"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "october-harvest-chard-final",
+          "name": "Bette finale",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte avant gel",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "0-8°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "october-maintain-seed-storage",
+          "name": "Stockage graines",
+          "emoji": "🌰",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Stocker graines au sec et au frais",
+          "companions": ["Graines récoltées"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "5-15°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "october-harvest-herbs-final",
+          "name": "Herbes finales",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte herbes sensibles",
+          "companions": ["Persil", "Ciboulette", "Thym"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "3-10°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "october-maintain-winter-prep-final",
+          "name": "Préparation finale",
+          "emoji": "❄️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1-2 jours",
+          "tips": "Derniers préparatifs avant hiver",
+          "companions": ["Toutes installations"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "plants": [
+        {
+          "id": "october-planning-november",
+          "name": "Planification novembre",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer les travaux d'hiver",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Intérieur",
+          "temperature": "18°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

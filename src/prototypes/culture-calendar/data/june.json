@@ -1,0 +1,604 @@
+{
+  "june": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "june-tomato-transplant",
+          "name": "Repiquage tomates",
+          "emoji": "🍅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Plantation définitive après les gelées",
+          "companions": ["Basilic", "Persil", "Œillet d'Inde"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-red-600"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "june-pepper-transplant",
+          "name": "Repiquage poivrons",
+          "emoji": "🫑",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Plantation en pleine terre, tuteurage",
+          "companions": ["Basilic", "Tomate", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-30°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "june-eggplant-transplant",
+          "name": "Repiquage aubergines",
+          "emoji": "🍆",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "100-130 jours",
+          "tips": "Climat chaud indispensable, paillage",
+          "companions": ["Tomate", "Poivron", "Basilic"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "22-32°C",
+          "color": "bg-purple-600"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "june-cucumber-transplant",
+          "name": "Repiquage concombres",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "50-70 jours",
+          "tips": "Plantation définitive, tuteurage vertical",
+          "companions": ["Radis", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud humide",
+          "temperature": "18-28°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "june-zucchini-transplant",
+          "name": "Repiquage courgettes",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Plantation définitive, arrosage régulier",
+          "companions": ["Radis", "Capucine", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "june-melon-transplant",
+          "name": "Repiquage melons",
+          "emoji": "🍈",
+          "type": "fruit",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "80-110 jours",
+          "tips": "Plantation sous tunnel, paillage plastique",
+          "companions": ["Radis", "Laitue", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "22-32°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "june-basil-transplant",
+          "name": "Repiquage basilic",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "40-60 jours",
+          "tips": "Plantation définitive, pincer les fleurs",
+          "companions": ["Tomate", "Poivron", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-30°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "june-lettuce-summer",
+          "name": "Laitue d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "50-70 jours",
+          "tips": "Variétés résistantes à la chaleur",
+          "companions": ["Radis", "Carotte", "Tomate"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Chaud",
+          "temperature": "15-25°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "june-radish-summer",
+          "name": "Radis d'été",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "25-35 jours",
+          "tips": "Semis à l'ombre, arrosage fréquent",
+          "companions": ["Carotte", "Laitue", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "15-25°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "june-carrot-summer",
+          "name": "Carottes d'été",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis direct, arrosage régulier",
+          "companions": ["Oignon", "Poireau", "Ciboulette"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "june-beet-summer",
+          "name": "Betteraves d'été",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis direct, éclaircissage nécessaire",
+          "companions": ["Oignon", "Chou", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-red-700"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "june-turnip-summer",
+          "name": "Navets d'été",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Croissance rapide, récolte jeune",
+          "companions": ["Épinards", "Radis", "Pois"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "june-chard-colorful",
+          "name": "Bette multicolore",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-60 jours",
+          "tips": "Côtes colorées décoratives",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "18-25°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "june-spinach-summer",
+          "name": "Épinards d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "40-50 jours",
+          "tips": "Variétés lentes à monter en graines",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "june-arugula-summer",
+          "name": "Roquette d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "30-40 jours",
+          "tips": "Semis à l'ombre, récolte rapide",
+          "companions": ["Radis", "Laitue", "Tomate"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "june-leek-transplant",
+          "name": "Repiquage poireaux",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "120-150 jours",
+          "tips": "Repiquage des semis de mars",
+          "companions": ["Carotte", "Céleri", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "june-cabbage-transplant",
+          "name": "Repiquage choux",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "80-100 jours",
+          "tips": "Repiquage des semis de printemps",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "june-broccoli-summer",
+          "name": "Brocolis d'été",
+          "emoji": "🥦",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Variétés résistantes à la chaleur",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "june-cauliflower-summer",
+          "name": "Choux-fleurs d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "80-100 jours",
+          "tips": "Arrosage régulier, protection soleil",
+          "companions": ["Épinards", "Laitue", "Céleri"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-white"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "june-kale-summer",
+          "name": "Chou frisé d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Résistant, récolte continue",
+          "companions": ["Épinards", "Radis", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "june-solstice",
+          "name": "Solstice d'été",
+          "emoji": "☀️",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Jour spécial",
+          "tips": "Jour le plus long, maximum de lumière",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "Maximum",
+          "weather": "Ensoleillé",
+          "temperature": "20-30°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "june-fennel-summer",
+          "name": "Fenouil d'été",
+          "emoji": "🌿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "80-100 jours",
+          "tips": "Éviter les chocs thermiques",
+          "companions": ["Chou", "Concombre", "Salade"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "18-25°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "june-celery-transplant",
+          "name": "Repiquage céleri",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "120-150 jours",
+          "tips": "Repiquage délicat, arrosage constant",
+          "companions": ["Poireau", "Chou", "Tomate"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "15-22°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "june-endive-summer",
+          "name": "Endives d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis pour forçage hivernal",
+          "companions": ["Radis", "Laitue", "Carotte"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-yellow-200"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "june-chicory",
+          "name": "Chicorée frisée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Blanchiment pour réduire l'amertume",
+          "companions": ["Radis", "Carotte", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "june-escarole",
+          "name": "Scarole",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Salade d'automne, blanchiment",
+          "companions": ["Radis", "Carotte", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "june-parsley-summer",
+          "name": "Persil d'été",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis à l'ombre, arrosage régulier",
+          "companions": ["Tomate", "Carotte", "Rose"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "15-25°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "june-chives-summer",
+          "name": "Ciboulette d'été",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Division des touffes existantes",
+          "companions": ["Carotte", "Tomate", "Rose"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "18-25°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "june-dill-summer",
+          "name": "Aneth d'été",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Semis échelonnés, récolte continue",
+          "companions": ["Concombre", "Chou", "Carotte"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "18-25°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "june-planning-july",
+          "name": "Planification juillet",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer l'arrosage d'été intensif",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "Bureau",
+          "weather": "Intérieur",
+          "temperature": "20°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

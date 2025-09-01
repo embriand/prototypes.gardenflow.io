@@ -1,0 +1,624 @@
+{
+  "may": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "may-day-beans",
+          "name": "Haricots verts nains",
+          "emoji": "🫛",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis direct après les Saints de Glace",
+          "companions": ["Carotte", "Radis", "Capucine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "may-climbing-beans",
+          "name": "Haricots à rames",
+          "emoji": "🫛",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Tuteurage indispensable, 2m de haut",
+          "companions": ["Maïs", "Courge", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "may-runner-beans",
+          "name": "Haricots d'Espagne",
+          "emoji": "🫛",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "80-100 jours",
+          "tips": "Fleurs rouges décoratives, grimpant",
+          "companions": ["Maïs", "Tournesol", "Capucine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux humide",
+          "temperature": "15-22°C",
+          "color": "bg-red-600"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "may-lima-beans",
+          "name": "Haricots de Lima",
+          "emoji": "🫛",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Graines plates, climat chaud",
+          "companions": ["Maïs", "Courge", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "may-corn-early",
+          "name": "Maïs précoce",
+          "emoji": "🌽",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "80-100 jours",
+          "tips": "Semis direct, plantation en blocs",
+          "companions": ["Haricot", "Courge", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-yellow-500"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "may-sweet-corn",
+          "name": "Maïs doux",
+          "emoji": "🌽",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Variétés sucrées, récolte jeune",
+          "companions": ["Haricot", "Courge", "Capucine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "may-popcorn",
+          "name": "Maïs à éclater",
+          "emoji": "🍿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "100-120 jours",
+          "tips": "Récolte à maturité complète",
+          "companions": ["Haricot", "Courge", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud sec",
+          "temperature": "20-30°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "may-zucchini-green",
+          "name": "Courgettes vertes",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Semis direct, récolte continue",
+          "companions": ["Radis", "Capucine", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "may-zucchini-yellow",
+          "name": "Courgettes jaunes",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Variété décorative, même culture",
+          "companions": ["Radis", "Capucine", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-yellow-500"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "may-pattypan-squash",
+          "name": "Pâtissons",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Forme originale, récolte jeune",
+          "companions": ["Radis", "Capucine", "Maïs"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "may-summer-squash",
+          "name": "Courges d'été",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Récolte avant durcissement de la peau",
+          "companions": ["Maïs", "Haricot", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "may-winter-squash",
+          "name": "Courges d'hiver",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "100-130 jours",
+          "tips": "Beaucoup d'espace, conservation longue",
+          "companions": ["Maïs", "Haricot", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-30°C",
+          "color": "bg-orange-600"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "may-pumpkins",
+          "name": "Citrouilles",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "110-130 jours",
+          "tips": "Énorme développement, 3-4m²",
+          "companions": ["Maïs", "Haricot", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-30°C",
+          "color": "bg-orange-700"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "may-butternut-squash",
+          "name": "Courge butternut",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "100-120 jours",
+          "tips": "Excellente conservation, chair orange",
+          "companions": ["Maïs", "Haricot", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-28°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "may-saints-ice",
+          "name": "Saints de Glace",
+          "emoji": "❄️",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "3 jours",
+          "tips": "Attention aux dernières gelées possibles",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "Variable",
+          "weather": "Risque de gel",
+          "temperature": "0-15°C",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "may-cucumber-outdoor",
+          "name": "Concombres pleine terre",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Après les Saints de Glace, tuteurage",
+          "companions": ["Radis", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud humide",
+          "temperature": "18-28°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "may-gherkins",
+          "name": "Cornichons",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "50-70 jours",
+          "tips": "Récolte quotidienne des petits fruits",
+          "companions": ["Radis", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud humide",
+          "temperature": "18-25°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "may-melons-outdoor",
+          "name": "Melons pleine terre",
+          "emoji": "🍈",
+          "type": "fruit",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "90-120 jours",
+          "tips": "Climat chaud indispensable, paillage",
+          "companions": ["Radis", "Laitue", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "22-30°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "may-watermelons-outdoor",
+          "name": "Pastèques pleine terre",
+          "emoji": "🍉",
+          "type": "fruit",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "100-130 jours",
+          "tips": "Climat très chaud, beaucoup d'espace",
+          "companions": ["Radis", "Tournesol", "Capucine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "25-35°C",
+          "color": "bg-red-400"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "may-okra",
+          "name": "Gombo",
+          "emoji": "🌶️",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Légume exotique, climat chaud",
+          "companions": ["Tomate", "Aubergine", "Poivron"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "22-30°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "may-amaranth",
+          "name": "Amarante",
+          "emoji": "🌾",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Feuilles et graines comestibles",
+          "companions": ["Tomate", "Poivron", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "may-quinoa",
+          "name": "Quinoa",
+          "emoji": "🌾",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Pseudo-céréale, graines nutritives",
+          "companions": ["Haricot", "Courge", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "15-25°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "may-sunflower-giant",
+          "name": "Tournesol géant",
+          "emoji": "🌻",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "100-130 jours",
+          "tips": "Peut atteindre 3-4m, tuteurage",
+          "companions": ["Concombre", "Haricot", "Courge"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "may-sunflower-dwarf",
+          "name": "Tournesol nain",
+          "emoji": "🌻",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Parfait pour bordures et pots",
+          "companions": ["Laitue", "Radis", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "15-25°C",
+          "color": "bg-yellow-300"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "may-cosmos",
+          "name": "Cosmos",
+          "emoji": "🌸",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Fleurs colorées, attire les pollinisateurs",
+          "companions": ["Tomate", "Courgette", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-pink-400"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "may-zinnia",
+          "name": "Zinnia",
+          "emoji": "🌺",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Fleurs vives, résistant à la sécheresse",
+          "companions": ["Tomate", "Courgette", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud sec",
+          "temperature": "18-28°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "may-marigold-french",
+          "name": "Œillet d'Inde français",
+          "emoji": "🌼",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Compact, parfait pour bordures",
+          "companions": ["Tomate", "Courgette", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "may-marigold-african",
+          "name": "Œillet d'Inde africain",
+          "emoji": "🌼",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Plus grand, fleurs imposantes",
+          "companions": ["Tomate", "Courgette", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-28°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "may-nasturtium-climbing",
+          "name": "Capucine grimpante",
+          "emoji": "🌺",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Couvre rapidement treillis et clôtures",
+          "companions": ["Courgette", "Concombre", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-red-400"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "may-nasturtium-dwarf",
+          "name": "Capucine naine",
+          "emoji": "🌺",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Parfaite pour bordures et pots",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-20°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "plants": [
+        {
+          "id": "may-planning-summer",
+          "name": "Planification été",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer l'arrosage et les tuteurs",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "Bureau",
+          "weather": "Intérieur",
+          "temperature": "20°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

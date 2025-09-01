@@ -1,0 +1,630 @@
+{
+  "march": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "early-carrots-march",
+          "name": "Carottes précoces",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous tunnel, variétés courtes",
+          "companions": ["Oignon", "Poireau", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais sec",
+          "temperature": "8-15°C",
+          "color": "bg-orange-500",
+          "yieldKgM2": 4.5,
+          "yieldTHa": 45
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "spring-onions",
+          "name": "Oignons de printemps",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Plantation des bulbilles, sol bien drainé",
+          "companions": ["Carotte", "Tomate", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "5-12°C",
+          "color": "bg-yellow-600",
+          "yieldKgM2": 3.8,
+          "yieldTHa": 38
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "spring-lettuce",
+          "name": "Laitue de printemps",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis échelonnés toutes les 2 semaines",
+          "companions": ["Radis", "Carotte", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "10-18°C",
+          "color": "bg-green-400",
+          "yieldKgM2": 2.2,
+          "yieldTHa": 22
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "spring-radish",
+          "name": "Radis roses",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "20-30 jours",
+          "tips": "Croissance rapide, semis direct",
+          "companions": ["Carotte", "Laitue", "Épinards"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "8-15°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "spring-peas",
+          "name": "Petits pois",
+          "emoji": "🟢",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Tuteurage nécessaire, semis direct",
+          "companions": ["Carotte", "Radis", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais humide",
+          "temperature": "6-14°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "spring-spinach",
+          "name": "Épinards de printemps",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "45-60 jours",
+          "tips": "Résistant au froid, récolte continue",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "5-15°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "broad-beans-march",
+          "name": "Fèves",
+          "emoji": "🫘",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Enrichit le sol en azote",
+          "companions": ["Chou", "Laitue", "Épinards"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "8-16°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "spring-turnips",
+          "name": "Navets de printemps",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Croissance rapide, préfère la fraîcheur",
+          "companions": ["Épinards", "Radis", "Pois"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "8-16°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "spring-parsley",
+          "name": "Persil plat",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Tremper les graines 24h avant semis",
+          "companions": ["Tomate", "Carotte", "Radis"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux humide",
+          "temperature": "12-18°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "spring-chives",
+          "name": "Ciboulette",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-90 jours",
+          "tips": "Division des touffes ou semis",
+          "companions": ["Carotte", "Tomate", "Rose"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "10-18°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "spring-arugula",
+          "name": "Roquette",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "30-40 jours",
+          "tips": "Récolte rapide, semis échelonnés",
+          "companions": ["Radis", "Laitue", "Tomate"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "8-16°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "spring-leeks",
+          "name": "Poireaux d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "150-180 jours",
+          "tips": "Semis en pépinière, repiquage en juin",
+          "companions": ["Carotte", "Céleri", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais humide",
+          "temperature": "10-16°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "spring-chard",
+          "name": "Bette à carde",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-60 jours",
+          "tips": "Récolte des feuilles extérieures",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "12-20°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "spring-dill",
+          "name": "Aneth",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Ne supporte pas le repiquage",
+          "companions": ["Concombre", "Chou", "Carotte"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "10-18°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "spring-cilantro",
+          "name": "Coriandre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Récolte des feuilles jeunes",
+          "companions": ["Radis", "Épinards", "Aneth"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "10-18°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "spring-cabbage",
+          "name": "Chou cabus",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis en pépinière, repiquage mai",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "10-16°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "spring-kale",
+          "name": "Chou frisé",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Très résistant, récolte continue",
+          "companions": ["Épinards", "Radis", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "8-16°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "spring-fennel",
+          "name": "Fenouil doux",
+          "emoji": "🌿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Éviter les chocs thermiques",
+          "companions": ["Chou", "Concombre", "Salade"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "12-18°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "spring-mache",
+          "name": "Mâche",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis direct, préfère la fraîcheur",
+          "companions": ["Radis", "Épinards", "Oignon"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "spring-equinox",
+          "name": "Équinoxe de printemps",
+          "emoji": "🌸",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Jour spécial",
+          "tips": "Début officiel du printemps, planifier les semis",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "Variable",
+          "weather": "Équilibré",
+          "temperature": "10-15°C",
+          "color": "bg-pink-400"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "spring-watercress",
+          "name": "Cresson alénois",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "20-30 jours",
+          "tips": "Croissance très rapide",
+          "companions": ["Radis", "Laitue", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "10-18°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "spring-sorrel",
+          "name": "Oseille",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Vivace, récolte continue",
+          "companions": ["Épinards", "Laitue", "Radis"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "8-16°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "spring-mustard",
+          "name": "Moutarde blanche",
+          "emoji": "🌿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "30-40 jours",
+          "tips": "Engrais vert ou légume-feuille",
+          "companions": ["Radis", "Épinards", "Pois"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "8-16°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "spring-mizuna",
+          "name": "Mizuna",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-50 jours",
+          "tips": "Légume-feuille japonais",
+          "companions": ["Radis", "Épinards", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "8-16°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "spring-pak-choi",
+          "name": "Pak-choï",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "45-60 jours",
+          "tips": "Chou chinois, croissance rapide",
+          "companions": ["Épinards", "Radis", "Oignon"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "10-18°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "spring-lovage",
+          "name": "Livèche",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Céleri perpétuel, vivace",
+          "companions": ["Tomate", "Chou", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "10-18°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "spring-chervil",
+          "name": "Cerfeuil",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Préfère l'ombre, saveur délicate",
+          "companions": ["Radis", "Laitue", "Carotte"],
+          "sunExposure": "Ombre",
+          "weather": "Frais humide",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "spring-tarragon",
+          "name": "Estragon",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Vivace, multiplication par division",
+          "companions": ["Tomate", "Aubergine", "Poivron"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "12-20°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "spring-oregano",
+          "name": "Origan",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Vivace méditerranéenne",
+          "companions": ["Tomate", "Courgette", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "12-20°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "spring-marjoram",
+          "name": "Marjolaine",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Cousin de l'origan, plus doux",
+          "companions": ["Tomate", "Courgette", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "12-18°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "plants": [
+        {
+          "id": "spring-planning",
+          "name": "Planification avril",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer les semis d'avril et mai",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "Bureau",
+          "weather": "Intérieur",
+          "temperature": "20°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

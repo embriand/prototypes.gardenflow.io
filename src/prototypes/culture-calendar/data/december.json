@@ -1,0 +1,624 @@
+{
+  "december": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "december-harvest-winter-leeks-peak",
+          "name": "Poireaux d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte continue",
+          "tips": "Pic de saveur après gelées",
+          "companions": ["Carotte", "Céleri", "Tomate"],
+          "sunExposure": "partial",
+          "weather": "Froid humide",
+          "temperature": "-5-3°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "december-maintain-greenhouse-heating",
+          "name": "Chauffage serre",
+          "emoji": "🔥",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "Surveillance",
+          "tips": "Maintenir température minimale",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Froid",
+          "temperature": "Variable",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "december-harvest-brussels-sprouts-christmas",
+          "name": "Choux Bruxelles",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte fêtes",
+          "tips": "Parfait pour repas de fêtes",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-8-2°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "december-sow-winter-lettuce-heated",
+          "name": "Laitue chauffée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "120-150 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Radis", "Carotte", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé chauffé",
+          "temperature": "12-18°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "december-maintain-snow-protection",
+          "name": "Protection neige",
+          "emoji": "❄️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Protéger structures du poids neige",
+          "companions": ["Serres", "Tunnels"],
+          "sunExposure": "shade",
+          "weather": "Neige",
+          "temperature": "-10-0°C",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "december-harvest-kale-snow",
+          "name": "Chou frisé neige",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte sous neige",
+          "tips": "Résiste même sous la neige",
+          "companions": ["Épinards", "Radis", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Neige",
+          "temperature": "-10-0°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "december-sow-winter-spinach-heated",
+          "name": "Épinards chauffés",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "partial",
+          "weather": "Protégé chauffé",
+          "temperature": "8-15°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "december-maintain-tool-maintenance-winter",
+          "name": "Entretien outils",
+          "emoji": "🔧",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "2-3 heures",
+          "tips": "Entretien approfondi période calme",
+          "companions": ["Tous outils"],
+          "sunExposure": "shade",
+          "weather": "Intérieur",
+          "temperature": "10-18°C",
+          "color": "bg-gray-600"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "december-harvest-parsnips-christmas",
+          "name": "Panais de Noël",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte fêtes",
+          "tips": "Très sucré après gel, parfait Noël",
+          "companions": ["Oignon", "Radis", "Carotte"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-8-0°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "december-sow-winter-radish-heated",
+          "name": "Radis chauffés",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Carotte", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé chauffé",
+          "temperature": "8-15°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "december-maintain-compost-frozen",
+          "name": "Compost gelé",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "Surveillance",
+          "tips": "Surveiller, ne pas retourner si gelé",
+          "companions": ["Déchets verts", "Feuilles"],
+          "sunExposure": "partial",
+          "weather": "Gelé",
+          "temperature": "-5-5°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "december-harvest-turnips-christmas",
+          "name": "Navets de Noël",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte fêtes",
+          "tips": "Excellents pour repas de fêtes",
+          "companions": ["Épinards", "Radis", "Chou"],
+          "sunExposure": "partial",
+          "weather": "Froid",
+          "temperature": "-5-3°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "december-sow-winter-mache-heated",
+          "name": "Mâche chauffée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "120-150 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Radis", "Épinards", "Oignon"],
+          "sunExposure": "partial",
+          "weather": "Protégé chauffé",
+          "temperature": "5-12°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "december-maintain-plant-inspection",
+          "name": "Inspection plantes",
+          "emoji": "🔍",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Vérifier état santé cultures",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Inspection",
+          "temperature": "Variable",
+          "color": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "december-harvest-jerusalem-artichoke-winter",
+          "name": "Topinambours hiver",
+          "emoji": "🥔",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte hiver",
+          "tips": "Se conserve parfaitement en terre",
+          "companions": ["Haricot", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-5-5°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "december-sow-winter-arugula-heated",
+          "name": "Roquette chauffée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "80-100 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Radis", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé chauffé",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "december-maintain-greenhouse-humidity",
+          "name": "Humidité serre",
+          "emoji": "💧",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "Surveillance",
+          "tips": "Contrôler humidité pour éviter maladies",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Humide",
+          "temperature": "Variable",
+          "color": "bg-blue-300"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "december-harvest-rutabaga-winter",
+          "name": "Rutabagas hiver",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte hiver",
+          "tips": "Excellent légume d'hiver",
+          "companions": ["Épinards", "Chou", "Radis"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-8-2°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "december-sow-winter-parsley-heated",
+          "name": "Persil chauffé",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "100-130 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Tomate", "Carotte", "Rose"],
+          "sunExposure": "partial",
+          "weather": "Protégé chauffé",
+          "temperature": "12-18°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "december-maintain-water-system-frozen",
+          "name": "Système gelé",
+          "emoji": "🧊",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "Surveillance",
+          "tips": "Surveiller gel canalisations",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Gelé",
+          "temperature": "-10-0°C",
+          "color": "bg-blue-600"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "december-solstice-winter",
+          "name": "Solstice d'hiver",
+          "emoji": "🌑",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Jour spécial",
+          "tips": "Jour le plus court, les jours rallongent",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "minimum",
+          "weather": "Sombre",
+          "temperature": "-5-5°C",
+          "color": "bg-gray-800"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "december-harvest-winter-cabbage-christmas",
+          "name": "Choux de Noël",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte Noël",
+          "tips": "Parfait pour repas de Noël",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-5-3°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "december-sow-winter-chives-heated",
+          "name": "Ciboulette chauffée",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Division touffes sous serre chauffée",
+          "companions": ["Carotte", "Tomate", "Rose"],
+          "sunExposure": "full",
+          "weather": "Protégé chauffé",
+          "temperature": "10-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "december-christmas-eve",
+          "name": "Réveillon de Noël",
+          "emoji": "🎄",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Fête",
+          "tips": "Profiter des légumes du jardin",
+          "companions": ["Famille", "Amis"],
+          "sunExposure": "intérieur",
+          "weather": "Festif",
+          "temperature": "20°C",
+          "color": "bg-red-600"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "december-christmas-day",
+          "name": "Noël",
+          "emoji": "🎅",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Fête",
+          "tips": "Joyeux Noël ! Repos mérité",
+          "companions": ["Famille", "Amis"],
+          "sunExposure": "intérieur",
+          "weather": "Festif",
+          "temperature": "20°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "december-maintain-soil-rest",
+          "name": "Repos du sol",
+          "emoji": "😴",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "Hiver",
+          "tips": "Laisser le sol se reposer",
+          "companions": ["Paillis", "Neige"],
+          "sunExposure": "shade",
+          "weather": "Repos",
+          "temperature": "-5-5°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "december-harvest-winter-chard-final",
+          "name": "Bette finale",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte avant grand froid",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "partial",
+          "weather": "Très froid",
+          "temperature": "-8-0°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "december-maintain-seed-planning",
+          "name": "Planification graines",
+          "emoji": "📖",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "2-3 heures",
+          "tips": "Planifier commandes graines année suivante",
+          "companions": ["Catalogues"],
+          "sunExposure": "intérieur",
+          "weather": "Intérieur",
+          "temperature": "18-22°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "december-harvest-winter-herbs-final",
+          "name": "Herbes finales",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte modérée",
+          "tips": "Récolte modérée herbes persistantes",
+          "companions": ["Thym", "Romarin", "Sauge"],
+          "sunExposure": "full",
+          "weather": "Sec froid",
+          "temperature": "-5-5°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "december-maintain-year-review",
+          "name": "Bilan de l'année",
+          "emoji": "📊",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Faire le bilan de l'année écoulée",
+          "companions": ["Carnet de jardin"],
+          "sunExposure": "intérieur",
+          "weather": "Intérieur",
+          "temperature": "18-22°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "plants": [
+        {
+          "id": "december-planning-new-year",
+          "name": "Nouvelle année",
+          "emoji": "🎊",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer les projets de la nouvelle année",
+          "companions": ["Résolutions"],
+          "sunExposure": "intérieur",
+          "weather": "Festif",
+          "temperature": "20°C",
+          "color": "bg-gold-500"
+        }
+      ]
+    }
+  ]
+}

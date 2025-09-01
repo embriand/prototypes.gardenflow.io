@@ -1,0 +1,610 @@
+{
+  "april": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "april-tomatoes",
+          "name": "Tomates cerises",
+          "emoji": "🍅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "120-150 jours",
+          "tips": "Semis sous abri chauffé, 18-20°C",
+          "companions": ["Basilic", "Persil", "Œillet d'Inde"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-red-600",
+          "yieldKgM2": 8.5,
+          "yieldTHa": 85
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "april-peppers",
+          "name": "Poivrons",
+          "emoji": "🫑",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "120-150 jours",
+          "tips": "Semis sous abri chauffé, repiquage mai",
+          "companions": ["Basilic", "Tomate", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-25°C",
+          "color": "bg-green-600",
+          "yieldKgM2": 6.2,
+          "yieldTHa": 62
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "april-eggplant",
+          "name": "Aubergines",
+          "emoji": "🍆",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "140-160 jours",
+          "tips": "Semis sous abri très chauffé",
+          "companions": ["Tomate", "Poivron", "Basilic"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "22-28°C",
+          "color": "bg-purple-600"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "april-cucumbers",
+          "name": "Concombres",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous abri, tuteurage nécessaire",
+          "companions": ["Radis", "Laitue", "Aneth"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud humide",
+          "temperature": "18-25°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "april-zucchini",
+          "name": "Courgettes",
+          "emoji": "🥒",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous abri, plantation après gelées",
+          "companions": ["Radis", "Capucine", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-green-600",
+          "yieldKgM2": 12.5,
+          "yieldTHa": 125
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "april-melons",
+          "name": "Melons",
+          "emoji": "🍈",
+          "type": "fruit",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "120-150 jours",
+          "tips": "Semis sous abri très chauffé",
+          "companions": ["Radis", "Laitue", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "22-28°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "april-watermelons",
+          "name": "Pastèques",
+          "emoji": "🍉",
+          "type": "fruit",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "120-150 jours",
+          "tips": "Semis sous abri très chauffé",
+          "companions": ["Radis", "Tournesol", "Capucine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Très chaud",
+          "temperature": "24-30°C",
+          "color": "bg-red-400"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "april-basil",
+          "name": "Basilic",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis sous abri chauffé, pincer les fleurs",
+          "companions": ["Tomate", "Poivron", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "20-25°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "april-beans",
+          "name": "Haricots verts",
+          "emoji": "🫛",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Attendre fin des gelées pour semis direct",
+          "companions": ["Carotte", "Radis", "Capucine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "april-corn",
+          "name": "Maïs doux",
+          "emoji": "🌽",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous abri, plantation en blocs",
+          "companions": ["Haricot", "Courge", "Tournesol"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-yellow-500"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "april-squash",
+          "name": "Courges d'été",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous abri, beaucoup d'espace",
+          "companions": ["Maïs", "Haricot", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "april-sunflowers",
+          "name": "Tournesols",
+          "emoji": "🌻",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis direct possible, tuteurage",
+          "companions": ["Concombre", "Haricot", "Courge"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "15-25°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "april-marigolds",
+          "name": "Œillets d'Inde",
+          "emoji": "🌼",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Répulsif naturel contre les pucerons",
+          "companions": ["Tomate", "Courgette", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "april-nasturtiums",
+          "name": "Capucines",
+          "emoji": "🌺",
+          "type": "flower",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Fleurs et feuilles comestibles",
+          "companions": ["Courgette", "Concombre", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-20°C",
+          "color": "bg-red-400"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "april-lettuce-spring",
+          "name": "Laitue batavia",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis échelonnés, résistante à la chaleur",
+          "companions": ["Radis", "Carotte", "Tomate"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "12-20°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "april-carrots-summer",
+          "name": "Carottes d'été",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis direct, éclaircissage important",
+          "companions": ["Oignon", "Poireau", "Ciboulette"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "12-20°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "april-beets",
+          "name": "Betteraves",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis direct, feuilles aussi comestibles",
+          "companions": ["Oignon", "Chou", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "12-18°C",
+          "color": "bg-red-700"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "april-radish-summer",
+          "name": "Radis d'été",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "25-35 jours",
+          "tips": "Variétés résistantes à la chaleur",
+          "companions": ["Carotte", "Laitue", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "april-spinach-summer",
+          "name": "Épinards d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "45-60 jours",
+          "tips": "Variétés résistantes à la montée en graines",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "12-18°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "april-swiss-chard",
+          "name": "Bette colorée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-60 jours",
+          "tips": "Variétés à côtes colorées",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "april-parsley-curly",
+          "name": "Persil frisé",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Tremper les graines, germination lente",
+          "companions": ["Tomate", "Carotte", "Rose"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux humide",
+          "temperature": "15-20°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "april-thyme",
+          "name": "Thym commun",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Vivace méditerranéenne, sol drainé",
+          "companions": ["Chou", "Tomate", "Aubergine"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "15-25°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "april-rosemary",
+          "name": "Romarin",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "120-150 jours",
+          "tips": "Bouturage plus facile que semis",
+          "companions": ["Chou", "Carotte", "Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "18-25°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "april-sage",
+          "name": "Sauge officinale",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Vivace, feuilles argentées",
+          "companions": ["Chou", "Carotte", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "15-22°C",
+          "color": "bg-gray-500"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "april-mint",
+          "name": "Menthe verte",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Envahissante, cultiver en pot",
+          "companions": ["Chou", "Tomate", "Radis"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "15-22°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "april-lemon-balm",
+          "name": "Mélisse",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Vivace, parfum citronné",
+          "companions": ["Tomate", "Chou", "Carotte"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "15-20°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "april-lavender",
+          "name": "Lavande",
+          "emoji": "💜",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "120-150 jours",
+          "tips": "Vivace, sol très drainé",
+          "companions": ["Rose", "Chou", "Carotte"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "18-25°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "april-strawberries",
+          "name": "Fraisiers",
+          "emoji": "🍓",
+          "type": "fruit",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "365 jours",
+          "tips": "Plantation des stolons, paillage",
+          "companions": ["Ail", "Oignon", "Thym"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-red-400"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "april-rhubarb",
+          "name": "Rhubarbe",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "365 jours",
+          "tips": "Vivace, division des touffes",
+          "companions": ["Épinards", "Laitue", "Haricot"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "12-18°C",
+          "color": "bg-red-600"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "april-asparagus",
+          "name": "Asperges",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "730 jours",
+          "tips": "Plantation des griffes, patience requise",
+          "companions": ["Tomate", "Persil", "Basilic"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "15-20°C",
+          "color": "bg-green-600"
+        }
+      ]
+    }
+  ]
+}

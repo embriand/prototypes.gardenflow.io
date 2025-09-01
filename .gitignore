@@ -94,3 +94,7 @@ logs
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore prototype directories at root level only
+/calendar-rendement/
+/culture-calendar/

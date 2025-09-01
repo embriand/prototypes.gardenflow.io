@@ -1,0 +1,604 @@
+{
+  "september": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "september-sow-winter-broad-beans",
+          "name": "Fèves d'hiver",
+          "emoji": "🫘",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "180-210 jours",
+          "tips": "Semis pour récolte printemps suivant",
+          "companions": ["Chou", "Laitue", "Épinards"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "12-18°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "september-harvest-pumpkins",
+          "name": "Citrouilles",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte avant les gelées",
+          "companions": ["Maïs", "Haricot", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "15-25°C",
+          "color": "bg-orange-700"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "september-sow-winter-peas",
+          "name": "Petits pois d'hiver",
+          "emoji": "🟢",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "150-180 jours",
+          "tips": "Variétés résistantes au froid",
+          "companions": ["Carotte", "Radis", "Laitue"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "10-16°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "september-maintain-harvest-storage",
+          "name": "Stockage récoltes",
+          "emoji": "📦",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1-2 jours",
+          "tips": "Préparer espaces de conservation",
+          "companions": ["Courges", "Pommes de terre"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "10-15°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "september-sow-garlic",
+          "name": "Ail d'automne",
+          "emoji": "🧄",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "240-270 jours",
+          "tips": "Plantation des caïeux, sol drainé",
+          "companions": ["Tomate", "Carotte", "Fraisier"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "10-18°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "september-harvest-butternut",
+          "name": "Courge butternut",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Excellente conservation, cure au soleil",
+          "companions": ["Maïs", "Haricot", "Radis"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "15-22°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "september-sow-winter-shallots",
+          "name": "Échalotes d'hiver",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "210-240 jours",
+          "tips": "Plantation des bulbes",
+          "companions": ["Carotte", "Fraisier", "Tomate"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "8-15°C",
+          "color": "bg-purple-300"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "september-maintain-compost-autumn",
+          "name": "Compost d'automne",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "6-12 mois",
+          "tips": "Ajouter feuilles mortes et déchets",
+          "companions": ["Déchets verts", "Feuilles"],
+          "sunExposure": "partial",
+          "weather": "Humide",
+          "temperature": "10-20°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "september-sow-winter-onions-sets",
+          "name": "Oignons blancs",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "180-210 jours",
+          "tips": "Plantation des bulbilles",
+          "companions": ["Carotte", "Poireau", "Laitue"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "8-15°C",
+          "color": "bg-white"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "september-harvest-late-tomatoes",
+          "name": "Tomates vertes",
+          "emoji": "🍅",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte finale",
+          "tips": "Récolte avant gelées, maturation intérieur",
+          "companions": ["Basilic", "Persil", "Œillet d'Inde"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "september-sow-winter-lettuce-greenhouse",
+          "name": "Laitue sous abri",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "80-100 jours",
+          "tips": "Semis sous serre pour hiver",
+          "companions": ["Radis", "Carotte", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "september-maintain-tool-winterizing",
+          "name": "Hivernage outils",
+          "emoji": "🔧",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Nettoyer, huiler, ranger les outils",
+          "companions": ["Tous outils"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "10-18°C",
+          "color": "bg-gray-600"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "september-sow-winter-radish-greenhouse",
+          "name": "Radis sous serre",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-50 jours",
+          "tips": "Culture protégée pour l'hiver",
+          "companions": ["Carotte", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "september-harvest-winter-squash-cure",
+          "name": "Cure courges",
+          "emoji": "☀️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "7-10 jours",
+          "tips": "Exposition soleil pour durcir la peau",
+          "companions": ["Courges", "Potirons"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "15-25°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "september-sow-winter-spinach-greenhouse",
+          "name": "Épinards sous serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Culture protégée pour récolte hiver",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "5-12°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "september-maintain-mulching-winter",
+          "name": "Paillage d'hiver",
+          "emoji": "🌾",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1-2 jours",
+          "tips": "Pailler pour protéger du froid",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "8-15°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "september-sow-winter-arugula-greenhouse",
+          "name": "Roquette sous serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-60 jours",
+          "tips": "Culture protégée, croissance lente",
+          "companions": ["Radis", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "5-12°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "september-harvest-late-peppers",
+          "name": "Poivrons finaux",
+          "emoji": "🫑",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte avant gelées",
+          "companions": ["Basilic", "Tomate", "Aubergine"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "10-18°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "september-sow-winter-mache-greenhouse",
+          "name": "Mâche sous serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "80-100 jours",
+          "tips": "Culture protégée pour hiver",
+          "companions": ["Radis", "Épinards", "Oignon"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "3-10°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "september-maintain-greenhouse-heating",
+          "name": "Chauffage serre",
+          "emoji": "🔥",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Installer système chauffage d'appoint",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "september-sow-winter-parsley-greenhouse",
+          "name": "Persil sous serre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "80-100 jours",
+          "tips": "Culture protégée pour récolte hiver",
+          "companions": ["Tomate", "Carotte", "Rose"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "september-equinox-autumn",
+          "name": "Équinoxe d'automne",
+          "emoji": "🍂",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Jour spécial",
+          "tips": "Début officiel de l'automne",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "variable",
+          "weather": "Équilibré",
+          "temperature": "12-18°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "september-harvest-late-eggplant",
+          "name": "Aubergines finales",
+          "emoji": "🍆",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "difficile",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte avant froid",
+          "companions": ["Tomate", "Poivron", "Basilic"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-purple-600"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "september-sow-winter-chives-greenhouse",
+          "name": "Ciboulette sous serre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Division touffes, culture protégée",
+          "companions": ["Carotte", "Tomate", "Rose"],
+          "sunExposure": "full",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "september-maintain-plant-protection",
+          "name": "Protection plantes",
+          "emoji": "🛡️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1-2 jours",
+          "tips": "Installer voiles, tunnels protection",
+          "companions": ["Cultures sensibles"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "september-harvest-root-vegetables",
+          "name": "Légumes racines",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte carottes, betteraves, navets",
+          "companions": ["Oignon", "Poireau"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "8-15°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "september-sow-winter-cilantro-greenhouse",
+          "name": "Coriandre sous serre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Culture protégée, croissance lente",
+          "companions": ["Radis", "Épinards", "Aneth"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "september-maintain-irrigation-winterizing",
+          "name": "Hivernage arrosage",
+          "emoji": "🚰",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Vidanger système d'arrosage",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "5-12°C",
+          "color": "bg-blue-600"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "september-harvest-herbs-final",
+          "name": "Herbes finales",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte finale",
+          "tips": "Dernière récolte basilic, persil",
+          "companions": ["Basilic", "Persil", "Ciboulette"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "8-15°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "september-planning-october",
+          "name": "Planification octobre",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer les travaux d'automne",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Intérieur",
+          "temperature": "18°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

@@ -146,6 +146,20 @@ const prototypes = [
     platform: 'desktop'
   },
   {
+    id: 'culture-calendar',
+    title: 'Culture Calendar',
+    path: '/culture-calendar',
+    description: 'Comprehensive planting calendar with daily suggestions for 200+ cultures and annual timeline view',
+    status: 'active',
+    lastModified: '2025-09-01',
+    featured: true,
+    category: 'tools',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Tailwind', 'JSON'],
+    complexity: 'high',
+    platform: 'desktop'
+  },
+  {
     id: 'collapsable-drawers',
     title: 'Collapsable Drawers D&D',
     path: '/collapsable-drawers',

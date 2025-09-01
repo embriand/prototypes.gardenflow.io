@@ -1,0 +1,624 @@
+{
+  "august": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "august-sow-winter-radish",
+          "name": "Radis d'hiver",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Variétés de conservation longue",
+          "companions": ["Carotte", "Épinards", "Chou"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "august-harvest-tomatoes-peak",
+          "name": "Tomates (pic)",
+          "emoji": "🍅",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte intensive",
+          "tips": "Pic de production, transformation",
+          "companions": ["Basilic", "Persil", "Œillet d'Inde"],
+          "sunExposure": "full",
+          "weather": "Chaud sec",
+          "temperature": "22-32°C",
+          "color": "bg-red-600"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "august-sow-pak-choi",
+          "name": "Pak-choï",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "45-60 jours",
+          "tips": "Chou chinois, croissance rapide",
+          "companions": ["Épinards", "Radis", "Oignon"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "august-maintain-pest-control",
+          "name": "Lutte bio parasites",
+          "emoji": "🐛",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "Surveillance",
+          "tips": "Traitement préventif bio",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Doux",
+          "temperature": "18-25°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "august-sow-mizuna",
+          "name": "Mizuna",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-50 jours",
+          "tips": "Légume-feuille japonais résistant",
+          "companions": ["Radis", "Épinards", "Laitue"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "august-harvest-peppers-peak",
+          "name": "Poivrons colorés",
+          "emoji": "🫑",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte des poivrons colorés mûrs",
+          "companions": ["Basilic", "Tomate", "Aubergine"],
+          "sunExposure": "full",
+          "weather": "Chaud",
+          "temperature": "22-30°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "august-sow-winter-onions",
+          "name": "Oignons d'hiver",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "240-270 jours",
+          "tips": "Semis pour récolte été suivant",
+          "companions": ["Carotte", "Poireau", "Laitue"],
+          "sunExposure": "full",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "august-maintain-composting",
+          "name": "Compost d'été",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "3-6 mois",
+          "tips": "Retourner, ajouter matières vertes",
+          "companions": ["Déchets verts"],
+          "sunExposure": "partial",
+          "weather": "Humide",
+          "temperature": "20-30°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "august-sow-chinese-cabbage",
+          "name": "Chou chinois",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Éviter les fortes chaleurs",
+          "companions": ["Épinards", "Radis", "Aneth"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "15-22°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "august-harvest-eggplant-peak",
+          "name": "Aubergines (pic)",
+          "emoji": "🍆",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "difficile",
+          "maturationTime": "Récolte intensive",
+          "tips": "Pic de production, récolte régulière",
+          "companions": ["Tomate", "Poivron", "Basilic"],
+          "sunExposure": "full",
+          "weather": "Très chaud",
+          "temperature": "25-35°C",
+          "color": "bg-purple-600"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "august-sow-winter-lettuce",
+          "name": "Laitue d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Variétés résistantes au froid",
+          "companions": ["Radis", "Carotte", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "august-maintain-seed-saving",
+          "name": "Récolte graines",
+          "emoji": "🌰",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "Séchage",
+          "tips": "Récolte graines pour l'an prochain",
+          "companions": ["Tomate", "Poivron", "Haricot"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "20-25°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "august-sow-winter-spinach",
+          "name": "Épinards d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Variétés très résistantes au froid",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "10-18°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "august-harvest-melons-late",
+          "name": "Melons tardifs",
+          "emoji": "🍈",
+          "type": "fruit",
+          "action": "harvest",
+          "difficulty": "difficile",
+          "maturationTime": "Récolte",
+          "tips": "Dernière récolte des variétés tardives",
+          "companions": ["Radis", "Laitue", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Chaud sec",
+          "temperature": "25-32°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "august-sow-winter-turnips",
+          "name": "Navets d'hiver",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Variétés de conservation",
+          "companions": ["Épinards", "Radis", "Chou"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "august-maintain-watering-evening",
+          "name": "Arrosage nocturne",
+          "emoji": "🌙",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "Quotidien",
+          "tips": "Arroser le soir pour économiser l'eau",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Chaud",
+          "temperature": "25-30°C",
+          "color": "bg-blue-600"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "august-sow-winter-carrots",
+          "name": "Carottes d'hiver",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Derniers semis pour conservation",
+          "companions": ["Oignon", "Poireau", "Ciboulette"],
+          "sunExposure": "full",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "august-harvest-winter-squash",
+          "name": "Courges d'hiver",
+          "emoji": "🎃",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte précoce",
+          "tips": "Première récolte des courges précoces",
+          "companions": ["Maïs", "Haricot", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "20-28°C",
+          "color": "bg-orange-600"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "august-sow-winter-parsley",
+          "name": "Persil d'hiver",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis pour récolte hivernale",
+          "companions": ["Tomate", "Carotte", "Rose"],
+          "sunExposure": "partial",
+          "weather": "Doux humide",
+          "temperature": "15-22°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "august-maintain-soil-prep",
+          "name": "Préparation sol",
+          "emoji": "🪴",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1-2 jours",
+          "tips": "Préparer parcelles pour semis automne",
+          "companions": ["Compost", "Amendements"],
+          "sunExposure": "shade",
+          "weather": "Doux",
+          "temperature": "18-25°C",
+          "color": "bg-brown-600"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "august-sow-winter-chard",
+          "name": "Bette d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Résistante au gel léger",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "august-harvest-corn-late",
+          "name": "Maïs tardif",
+          "emoji": "🌽",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte des variétés tardives",
+          "companions": ["Haricot", "Courge", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "20-28°C",
+          "color": "bg-yellow-500"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "august-sow-winter-arugula",
+          "name": "Roquette d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-50 jours",
+          "tips": "Plus résistante que la roquette d'été",
+          "companions": ["Radis", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "10-18°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "august-maintain-greenhouse-prep",
+          "name": "Préparation serre",
+          "emoji": "🏠",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Nettoyer serre pour cultures d'hiver",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Doux",
+          "temperature": "15-25°C",
+          "color": "bg-green-200"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "august-sow-winter-cilantro",
+          "name": "Coriandre d'hiver",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Variété résistante au froid",
+          "companions": ["Radis", "Épinards", "Aneth"],
+          "sunExposure": "partial",
+          "weather": "Frais",
+          "temperature": "12-20°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "august-harvest-beans-dry",
+          "name": "Haricots secs",
+          "emoji": "🫛",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte pour conservation sèche",
+          "companions": ["Carotte", "Radis", "Capucine"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "20-25°C",
+          "color": "bg-brown-600"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "august-sow-winter-chives",
+          "name": "Ciboulette d'hiver",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Division des touffes existantes",
+          "companions": ["Carotte", "Tomate", "Rose"],
+          "sunExposure": "full",
+          "weather": "Doux",
+          "temperature": "15-22°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "august-maintain-tool-cleaning",
+          "name": "Nettoyage outils",
+          "emoji": "🧽",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "2-3 heures",
+          "tips": "Nettoyer et désinfecter les outils",
+          "companions": ["Tous outils"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "18-25°C",
+          "color": "bg-gray-600"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "august-sow-winter-mustard",
+          "name": "Moutarde d'hiver",
+          "emoji": "🌿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-50 jours",
+          "tips": "Engrais vert ou légume-feuille",
+          "companions": ["Radis", "Épinards", "Pois"],
+          "sunExposure": "full",
+          "weather": "Frais",
+          "temperature": "10-18°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "august-harvest-herbs-preservation",
+          "name": "Conservation herbes",
+          "emoji": "🫙",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1-2 jours",
+          "tips": "Congélation, séchage, huiles",
+          "companions": ["Basilic", "Persil", "Thym"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "18-25°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "plants": [
+        {
+          "id": "august-planning-september",
+          "name": "Planification septembre",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer les cultures d'automne",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Intérieur",
+          "temperature": "20°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

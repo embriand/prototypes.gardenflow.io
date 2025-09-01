@@ -1,0 +1,604 @@
+{
+  "november": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "november-harvest-leeks-winter",
+          "name": "Poireaux d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte continue",
+          "tips": "Très résistant, récolte selon besoins",
+          "companions": ["Carotte", "Céleri", "Tomate"],
+          "sunExposure": "partial",
+          "weather": "Humide",
+          "temperature": "-3-8°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "november-maintain-greenhouse-winter",
+          "name": "Serre hivernale",
+          "emoji": "🏠",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Vérifier isolation et chauffage",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-green-200"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "november-harvest-brussels-sprouts-peak",
+          "name": "Choux Bruxelles",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte optimale",
+          "tips": "Excellent après gelées",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-5-5°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "november-sow-winter-lettuce-greenhouse",
+          "name": "Laitue serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "100-120 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Radis", "Carotte", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "november-maintain-mulching-heavy",
+          "name": "Paillage épais",
+          "emoji": "🌾",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Paillage épais pour protection gel",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "0-8°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "november-harvest-kale-winter",
+          "name": "Chou frisé hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte continue",
+          "tips": "Très résistant au froid",
+          "companions": ["Épinards", "Radis", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-8-5°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "november-sow-winter-spinach-greenhouse",
+          "name": "Épinards serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "80-100 jours",
+          "tips": "Semis sous protection",
+          "companions": ["Radis", "Laitue", "Fraisier"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "3-10°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "november-maintain-tool-winterizing-final",
+          "name": "Hivernage final",
+          "emoji": "🔧",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Derniers préparatifs outils",
+          "companions": ["Tous outils"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "0-8°C",
+          "color": "bg-gray-600"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "november-harvest-parsnips-sweet",
+          "name": "Panais sucrés",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte optimale",
+          "tips": "Plus sucré après gelées",
+          "companions": ["Oignon", "Radis", "Carotte"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-5-3°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "november-sow-winter-radish-greenhouse",
+          "name": "Radis serre",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis sous serre non chauffée",
+          "companions": ["Carotte", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "3-10°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "november-maintain-compost-winter",
+          "name": "Compost hiver",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Couvrir compost pour l'hiver",
+          "companions": ["Déchets verts", "Feuilles"],
+          "sunExposure": "partial",
+          "weather": "Humide",
+          "temperature": "0-8°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "november-harvest-turnips-storage",
+          "name": "Navets conservation",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte stockage",
+          "tips": "Récolte pour conservation cave",
+          "companions": ["Épinards", "Radis", "Chou"],
+          "sunExposure": "partial",
+          "weather": "Sec",
+          "temperature": "-2-5°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "november-sow-winter-mache-greenhouse",
+          "name": "Mâche serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "100-120 jours",
+          "tips": "Semis sous protection légère",
+          "companions": ["Radis", "Épinards", "Oignon"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "0-8°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "november-maintain-plant-protection-check",
+          "name": "Vérif protections",
+          "emoji": "🛡️",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Vérifier toutes les protections",
+          "companions": ["Cultures sensibles"],
+          "sunExposure": "shade",
+          "weather": "Inspection",
+          "temperature": "Variable",
+          "color": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "november-harvest-jerusalem-artichoke",
+          "name": "Topinambours",
+          "emoji": "🥔",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Se conserve en terre",
+          "companions": ["Haricot", "Tournesol"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "-2-8°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "november-sow-winter-arugula-greenhouse",
+          "name": "Roquette serre",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous serre froide",
+          "companions": ["Radis", "Laitue", "Épinards"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "3-10°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "november-maintain-greenhouse-ventilation",
+          "name": "Ventilation serre",
+          "emoji": "💨",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Régler ventilation pour hiver",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Préparation",
+          "temperature": "Variable",
+          "color": "bg-blue-300"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "november-harvest-rutabaga",
+          "name": "Rutabagas",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Excellent après gelées",
+          "companions": ["Épinards", "Chou", "Radis"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-5-5°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "november-sow-winter-parsley-greenhouse",
+          "name": "Persil serre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous serre chauffée",
+          "companions": ["Tomate", "Carotte", "Rose"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "november-maintain-water-system-final",
+          "name": "Arrosage final",
+          "emoji": "🚰",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Vérification finale système",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "0-5°C",
+          "color": "bg-blue-600"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "november-harvest-winter-cabbage",
+          "name": "Choux d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte pour conservation",
+          "companions": ["Épinards", "Laitue", "Aneth"],
+          "sunExposure": "full",
+          "weather": "Froid",
+          "temperature": "-3-5°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "november-sow-winter-chives-greenhouse",
+          "name": "Ciboulette serre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "80-100 jours",
+          "tips": "Division touffes sous abri",
+          "companions": ["Carotte", "Tomate", "Rose"],
+          "sunExposure": "full",
+          "weather": "Protégé",
+          "temperature": "5-12°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "november-maintain-soil-protection",
+          "name": "Protection sol",
+          "emoji": "🌾",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Couvrir sol nu contre gel",
+          "companions": ["Paillis", "Bâches"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "0-5°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "november-harvest-winter-leeks",
+          "name": "Poireaux géants",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Variétés géantes très résistantes",
+          "companions": ["Carotte", "Céleri", "Tomate"],
+          "sunExposure": "partial",
+          "weather": "Humide",
+          "temperature": "-5-5°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "november-sow-winter-cilantro-greenhouse",
+          "name": "Coriandre serre",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous serre froide",
+          "companions": ["Radis", "Épinards", "Aneth"],
+          "sunExposure": "partial",
+          "weather": "Protégé",
+          "temperature": "5-12°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "november-maintain-greenhouse-cleaning",
+          "name": "Nettoyage serre",
+          "emoji": "🧽",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Nettoyage vitres pour luminosité",
+          "companions": ["Équipements"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "5-12°C",
+          "color": "bg-blue-200"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "november-harvest-winter-chard",
+          "name": "Bette résistante",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Variétés résistantes au gel",
+          "companions": ["Radis", "Laitue", "Haricot"],
+          "sunExposure": "partial",
+          "weather": "Froid",
+          "temperature": "-3-5°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "november-maintain-seed-inventory",
+          "name": "Inventaire graines",
+          "emoji": "🌰",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "2-3 heures",
+          "tips": "Vérifier stock graines pour l'an prochain",
+          "companions": ["Graines stockées"],
+          "sunExposure": "shade",
+          "weather": "Sec",
+          "temperature": "10-18°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "november-harvest-winter-herbs",
+          "name": "Herbes résistantes",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte modérée",
+          "tips": "Thym, romarin, sauge résistent",
+          "companions": ["Thym", "Romarin", "Sauge"],
+          "sunExposure": "full",
+          "weather": "Sec",
+          "temperature": "-2-8°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "november-planning-december",
+          "name": "Planification décembre",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Préparer les activités d'hiver",
+          "companions": ["Toutes cultures"],
+          "sunExposure": "shade",
+          "weather": "Intérieur",
+          "temperature": "18°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    }
+  ]
+}

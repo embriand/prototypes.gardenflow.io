@@ -36,6 +36,7 @@ const LoginComponent = lazy(() => import('./prototypes/login-component'))
 const TemplateParcelZone = lazy(() => import('./prototypes/template-parcel-zone'))
 const GoodPalChat = lazy(() => import('./prototypes/goodpal-chat'))
 const ParcelZoneMatrix = lazy(() => import('./prototypes/parcel-zone-matrix'))
+const CultureCalendar = lazy(() => import('./prototypes/culture-calendar'))
 
 function App() {
   return (
@@ -87,6 +88,11 @@ function App() {
             <Route path="/calendar" element={
               <Suspense fallback={<LoadingFallback message="Loading Calendar..." />}>
                 <Calendar />
+              </Suspense>
+            } />
+            <Route path="/culture-calendar" element={
+              <Suspense fallback={<LoadingFallback message="Loading Culture Calendar..." />}>
+                <CultureCalendar />
               </Suspense>
             } />
             <Route path="/collapsable-drawers" element={

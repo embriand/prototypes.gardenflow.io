@@ -1,0 +1,1192 @@
+{
+  "january": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "spinach-winter",
+          "name": "Épinards d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "45-60 jours",
+          "tips": "Résistant au froid, semis sous tunnel",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Froid sec",
+          "temperature": "2-8°C",
+          "color": "bg-green-600",
+          "yieldKgM2": 2.5,
+          "yieldTHa": 25
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "broad-beans",
+          "name": "Fèves",
+          "emoji": "🫘",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis direct en pleine terre, résistant au gel",
+          "companions": ["Chou", "Laitue", "Épinards"],
+          "sunExposure": "Plein soleil",
+          "weather": "Froid humide",
+          "temperature": "0-5°C",
+          "color": "bg-green-700",
+          "yieldKgM2": 1.8,
+          "yieldTHa": 18
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "winter-radish",
+          "name": "Radis d'hiver",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte avant les fortes gelées",
+          "companions": ["Carotte", "Épinards"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec et froid",
+          "temperature": "-2-3°C",
+          "color": "bg-red-500",
+          "yieldKgM2": 3.2,
+          "yieldTHa": 32
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "winter-lettuce",
+          "name": "Laitue d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Variétés résistantes au froid sous abri",
+          "companions": ["Radis", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Froid sec",
+          "temperature": "0-6°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "garlic-planting",
+          "name": "Ail rose",
+          "emoji": "🧄",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "180-210 jours",
+          "tips": "Plantation des caïeux, terre bien drainée",
+          "companions": ["Tomate", "Carotte", "Fraisier"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "2-8°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "winter-onion",
+          "name": "Oignon blanc",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous abri, repiquage au printemps",
+          "companions": ["Carotte", "Poireau", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Froid sec",
+          "temperature": "0-5°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "winter-cabbage",
+          "name": "Chou de Bruxelles",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte après les premières gelées",
+          "companions": ["Épinards", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Froid",
+          "temperature": "-5-2°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "winter-leek",
+          "name": "Poireau d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte selon les besoins, très résistant",
+          "companions": ["Carotte", "Céleri"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "-3-5°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "winter-parsnip",
+          "name": "Panais",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Meilleur après les gelées, goût plus sucré",
+          "companions": ["Oignon", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Froid sec",
+          "temperature": "-2-4°C",
+          "color": "bg-orange-400"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "winter-kale",
+          "name": "Chou kale",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Très résistant au froid, récolte continue",
+          "companions": ["Épinards", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Froid",
+          "temperature": "-8-3°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "winter-carrot",
+          "name": "Carotte de conservation",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Récolte avant les fortes gelées",
+          "companions": ["Poireau", "Oignon"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "0-6°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "winter-turnip",
+          "name": "Navet d'hiver",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte avant les fortes gelées",
+          "companions": ["Épinards", "Radis"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "-2-5°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "winter-chard",
+          "name": "Bette à carde",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-60 jours",
+          "tips": "Semis sous abri chauffé",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "5-12°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "winter-pea",
+          "name": "Petits pois précoces",
+          "emoji": "🟢",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous abri, variétés résistantes",
+          "companions": ["Carotte", "Radis", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "2-8°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "winter-herbs",
+          "name": "Persil plat",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis sous abri, germination lente",
+          "companions": ["Tomate", "Carotte"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "winter-arugula",
+          "name": "Roquette d'hiver",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "30-40 jours",
+          "tips": "Croissance rapide sous abri",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "3-10°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "winter-mache",
+          "name": "Mâche",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte avant montée en graines",
+          "companions": ["Radis", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "0-8°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "winter-chives",
+          "name": "Ciboulette",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-90 jours",
+          "tips": "Semis sous abri, division des touffes",
+          "companions": ["Carotte", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "5-12°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "winter-celery",
+          "name": "Céleri-rave",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "moyen",
+          "maturationTime": "Récolte",
+          "tips": "Conservation en cave après récolte",
+          "companions": ["Poireau", "Chou"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "0-5°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "winter-endive",
+          "name": "Endive (forçage)",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "difficile",
+          "maturationTime": "Récolte",
+          "tips": "Forçage en cave obscure",
+          "companions": ["Radis"],
+          "sunExposure": "Obscurité",
+          "weather": "Sec",
+          "temperature": "12-16°C",
+          "color": "bg-yellow-200"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "winter-shallot",
+          "name": "Échalote grise",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "150-180 jours",
+          "tips": "Plantation des bulbes, terre bien drainée",
+          "companions": ["Carotte", "Fraisier"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "0-8°C",
+          "color": "bg-purple-300"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "winter-rutabaga",
+          "name": "Rutabaga",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Excellent après les gelées",
+          "companions": ["Épinards", "Chou"],
+          "sunExposure": "Plein soleil",
+          "weather": "Froid",
+          "temperature": "-3-4°C",
+          "color": "bg-purple-500"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "winter-jerusalem-artichoke",
+          "name": "Topinambour",
+          "emoji": "🥔",
+          "type": "vegetable",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte selon besoins, se conserve en terre",
+          "companions": ["Haricot"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "-2-6°C",
+          "color": "bg-yellow-700"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "winter-rosemary",
+          "name": "Romarin",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte continue, protection du gel",
+          "companions": ["Chou", "Carotte"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "0-10°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "winter-thyme",
+          "name": "Thym",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Résistant au froid, récolte modérée",
+          "companions": ["Chou", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "-5-8°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "winter-sage",
+          "name": "Sauge officinale",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "harvest",
+          "difficulty": "facile",
+          "maturationTime": "Récolte",
+          "tips": "Récolte modérée en hiver",
+          "companions": ["Chou", "Carotte"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "-2-8°C",
+          "color": "bg-gray-500"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "winter-planning",
+          "name": "Planification jardin",
+          "emoji": "📋",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Toute l'année",
+          "tips": "Planifier les cultures de printemps",
+          "companions": ["Tous légumes"],
+          "sunExposure": "Bureau",
+          "weather": "Intérieur",
+          "temperature": "20°C",
+          "color": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "winter-tool-maintenance",
+          "name": "Entretien outils",
+          "emoji": "🔧",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "1 jour",
+          "tips": "Nettoyer et affûter les outils",
+          "companions": ["Tous outils"],
+          "sunExposure": "Abri",
+          "weather": "Sec",
+          "temperature": "5-15°C",
+          "color": "bg-gray-600"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "plants": [
+        {
+          "id": "winter-compost",
+          "name": "Compost d'hiver",
+          "emoji": "🍂",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "facile",
+          "maturationTime": "6-12 mois",
+          "tips": "Retourner le compost, ajouter matières sèches",
+          "companions": ["Déchets verts"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "0-10°C",
+          "color": "bg-brown-500"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "plants": [
+        {
+          "id": "winter-seed-order",
+          "name": "Commande graines",
+          "emoji": "📦",
+          "type": "planning",
+          "action": "plan",
+          "difficulty": "facile",
+          "maturationTime": "Préparation",
+          "tips": "Commander les graines pour le printemps",
+          "companions": ["Catalogues"],
+          "sunExposure": "Intérieur",
+          "weather": "Confortable",
+          "temperature": "20°C",
+          "color": "bg-blue-400"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "plants": [
+        {
+          "id": "winter-greenhouse-prep",
+          "name": "Préparation serre",
+          "emoji": "🏠",
+          "type": "maintenance",
+          "action": "maintain",
+          "difficulty": "moyen",
+          "maturationTime": "1 jour",
+          "tips": "Nettoyer et préparer la serre pour les semis",
+          "companions": ["Équipements"],
+          "sunExposure": "Serre",
+          "weather": "Protégé",
+          "temperature": "8-15°C",
+          "color": "bg-green-200"
+        }
+      ]
+    }
+  ],
+  "february": [
+    {
+      "day": 1,
+      "plants": [
+        {
+          "id": "early-spinach",
+          "name": "Épinards précoces",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "45-60 jours",
+          "tips": "Semis sous tunnel ou châssis",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "2-10°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "plants": [
+        {
+          "id": "early-radish",
+          "name": "Radis de 18 jours",
+          "emoji": "🔴",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "18-25 jours",
+          "tips": "Semis sous abri, croissance rapide",
+          "companions": ["Carotte", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais sec",
+          "temperature": "5-12°C",
+          "color": "bg-red-500"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "plants": [
+        {
+          "id": "early-lettuce",
+          "name": "Laitue pommée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis en godets sous abri chauffé",
+          "companions": ["Radis", "Carotte"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "plants": [
+        {
+          "id": "broad-beans-feb",
+          "name": "Fèves précoces",
+          "emoji": "🫘",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis direct possible dans le Midi",
+          "companions": ["Chou", "Épinards"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "3-8°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "plants": [
+        {
+          "id": "early-peas",
+          "name": "Petits pois mangetout",
+          "emoji": "🟢",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous abri, tuteurage nécessaire",
+          "companions": ["Carotte", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais humide",
+          "temperature": "4-10°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "plants": [
+        {
+          "id": "early-onion-sets",
+          "name": "Oignons jaunes",
+          "emoji": "🧅",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "120-150 jours",
+          "tips": "Plantation des bulbilles",
+          "companions": ["Carotte", "Poireau"],
+          "sunExposure": "Plein soleil",
+          "weather": "Sec",
+          "temperature": "2-8°C",
+          "color": "bg-yellow-600"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "plants": [
+        {
+          "id": "early-carrots",
+          "name": "Carottes courtes",
+          "emoji": "🥕",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous tunnel, variétés précoces",
+          "companions": ["Oignon", "Poireau"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais sec",
+          "temperature": "5-12°C",
+          "color": "bg-orange-500"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "plants": [
+        {
+          "id": "parsley-feb",
+          "name": "Persil frisé",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis sous abri, trempage des graines",
+          "companions": ["Tomate", "Carotte"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux humide",
+          "temperature": "10-16°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "plants": [
+        {
+          "id": "early-turnips",
+          "name": "Navets de printemps",
+          "emoji": "🟣",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Semis sous abri, croissance rapide",
+          "companions": ["Épinards", "Radis"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "3-10°C",
+          "color": "bg-purple-400"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "plants": [
+        {
+          "id": "early-chard",
+          "name": "Bette colorée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-60 jours",
+          "tips": "Semis sous abri chauffé",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "plants": [
+        {
+          "id": "chives-feb",
+          "name": "Ciboulette commune",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-90 jours",
+          "tips": "Semis sous abri ou division",
+          "companions": ["Carotte", "Tomate"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "8-14°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "plants": [
+        {
+          "id": "early-arugula",
+          "name": "Roquette cultivée",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "30-40 jours",
+          "tips": "Semis sous abri, récolte rapide",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "5-12°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "plants": [
+        {
+          "id": "early-leeks",
+          "name": "Poireaux d'été",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "150-180 jours",
+          "tips": "Semis en pépinière sous abri",
+          "companions": ["Carotte", "Céleri"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais humide",
+          "temperature": "6-12°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "plants": [
+        {
+          "id": "valentine-herbs",
+          "name": "Basilic pourpre",
+          "emoji": "💜",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis sous abri chauffé, Saint-Valentin",
+          "companions": ["Tomate", "Poivron"],
+          "sunExposure": "Plein soleil",
+          "weather": "Chaud",
+          "temperature": "18-25°C",
+          "color": "bg-purple-600"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "plants": [
+        {
+          "id": "early-celeriac",
+          "name": "Céleri-rave",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "difficile",
+          "maturationTime": "180-210 jours",
+          "tips": "Semis sous abri chauffé, repiquage",
+          "companions": ["Poireau", "Chou"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Doux humide",
+          "temperature": "15-20°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "plants": [
+        {
+          "id": "early-fennel",
+          "name": "Fenouil doux",
+          "emoji": "🌿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis sous abri, éviter les chocs thermiques",
+          "companions": ["Chou", "Concombre"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "10-16°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "plants": [
+        {
+          "id": "early-cabbage",
+          "name": "Chou cabus",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Semis en pépinière sous abri",
+          "companions": ["Épinards", "Laitue"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "8-14°C",
+          "color": "bg-green-800"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "plants": [
+        {
+          "id": "early-dill",
+          "name": "Aneth odorant",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Semis sous abri, ne supporte pas le repiquage",
+          "companions": ["Concombre", "Chou"],
+          "sunExposure": "Plein soleil",
+          "weather": "Doux",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "plants": [
+        {
+          "id": "early-kale",
+          "name": "Chou frisé",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "70-90 jours",
+          "tips": "Semis sous abri, très résistant",
+          "companions": ["Épinards", "Radis"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "5-12°C",
+          "color": "bg-green-700"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "plants": [
+        {
+          "id": "early-mizuna",
+          "name": "Mizuna",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-50 jours",
+          "tips": "Légume-feuille japonais, croissance rapide",
+          "companions": ["Radis", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "3-10°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "plants": [
+        {
+          "id": "early-mache",
+          "name": "Mâche verte",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Semis direct sous abri",
+          "companions": ["Radis", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "2-8°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "plants": [
+        {
+          "id": "early-pak-choi",
+          "name": "Pak-choï",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "45-60 jours",
+          "tips": "Chou chinois, semis sous abri",
+          "companions": ["Épinards", "Radis"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "5-12°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "plants": [
+        {
+          "id": "early-cilantro",
+          "name": "Coriandre fraîche",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "40-60 jours",
+          "tips": "Semis sous abri, récolte des feuilles",
+          "companions": ["Radis", "Épinards"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "8-15°C",
+          "color": "bg-green-300"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "plants": [
+        {
+          "id": "early-mustard",
+          "name": "Moutarde blanche",
+          "emoji": "🌿",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "30-40 jours",
+          "tips": "Engrais vert ou légume-feuille",
+          "companions": ["Radis", "Épinards"],
+          "sunExposure": "Plein soleil",
+          "weather": "Frais",
+          "temperature": "5-12°C",
+          "color": "bg-yellow-400"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "plants": [
+        {
+          "id": "early-watercress",
+          "name": "Cresson alénois",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "20-30 jours",
+          "tips": "Croissance très rapide, récolte continue",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Humide",
+          "temperature": "8-15°C",
+          "color": "bg-green-400"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "plants": [
+        {
+          "id": "early-sorrel",
+          "name": "Oseille commune",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "60-80 jours",
+          "tips": "Vivace, semis sous abri",
+          "companions": ["Épinards", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "5-12°C",
+          "color": "bg-green-500"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "plants": [
+        {
+          "id": "early-lovage",
+          "name": "Livèche",
+          "emoji": "🌿",
+          "type": "herb",
+          "action": "sow",
+          "difficulty": "moyen",
+          "maturationTime": "90-120 jours",
+          "tips": "Céleri perpétuel, semis sous abri",
+          "companions": ["Tomate", "Chou"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais humide",
+          "temperature": "8-15°C",
+          "color": "bg-green-600"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "plants": [
+        {
+          "id": "leap-day-special",
+          "name": "Épinards géants",
+          "emoji": "🥬",
+          "type": "vegetable",
+          "action": "sow",
+          "difficulty": "facile",
+          "maturationTime": "50-70 jours",
+          "tips": "Variété à grandes feuilles, jour bissextile",
+          "companions": ["Radis", "Laitue"],
+          "sunExposure": "Mi-ombre",
+          "weather": "Frais",
+          "temperature": "3-10°C",
+          "color": "bg-green-600"
+        }
+      ]
+    }
+  ]
+}
