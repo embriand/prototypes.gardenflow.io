@@ -76,6 +76,20 @@ const prototypes = [
     platform: 'desktop'
   },
   {
+    id: 'rotation-prototypes',
+    title: 'Rotation Prototypes',
+    path: '/rotation-prototypes',
+    description: 'Three interactive prototypes exploring different rotation, resize, and shape manipulation approaches',
+    status: 'active',
+    lastModified: new Date().toISOString().split('T')[0],
+    featured: true,
+    category: 'landscape',
+    size: 'large',
+    technologies: ['React', 'TypeScript', 'Tailwind'],
+    complexity: 'high',
+    platform: 'desktop'
+  },
+  {
     id: 'enhanced-parcel-zone-crops',
     title: 'Enhanced Parcel-Zone-Crops',
     path: '/enhanced-parcel-zone-crops',

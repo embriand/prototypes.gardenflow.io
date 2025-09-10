@@ -37,6 +37,7 @@ const TemplateParcelZone = lazy(() => import('./prototypes/template-parcel-zone'
 const GoodPalChat = lazy(() => import('./prototypes/goodpal-chat'))
 const ParcelZoneMatrix = lazy(() => import('./prototypes/parcel-zone-matrix'))
 const CultureCalendar = lazy(() => import('./prototypes/culture-calendar'))
+const RotationPrototypes = lazy(() => import('./prototypes/rotation'))
 
 function App() {
   return (
@@ -203,6 +204,11 @@ function App() {
             <Route path="/parcel-zone-matrix" element={
               <Suspense fallback={<LoadingFallback message="Loading Parcel Zone Matrix..." />}>
                 <ParcelZoneMatrix />
+              </Suspense>
+            } />
+            <Route path="/rotation-prototypes" element={
+              <Suspense fallback={<LoadingFallback message="Loading Rotation Prototypes..." />}>
+                <RotationPrototypes />
               </Suspense>
             } />
           </Routes>
