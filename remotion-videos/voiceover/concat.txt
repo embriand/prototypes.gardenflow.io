@@ -1,0 +1,8 @@
+file 'voice_01_intro.mp3'
+file 'voice_02_fab.mp3'
+file 'voice_03_plant.mp3'
+file 'voice_04_location.mp3'
+file 'voice_05_timing.mp3'
+file 'voice_06_harvest.mp3'
+file 'voice_07_save.mp3'
+file 'voice_08_final.mp3'

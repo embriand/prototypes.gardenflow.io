@@ -8,7 +8,16 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "video:preview": "remotion studio remotion-videos/src/index.ts",
+    "video:render": "remotion render remotion-videos/src/index.ts",
+    "video:render-intro": "remotion render remotion-videos/src/index.ts GardenIntro out/garden-intro.mp4",
+    "video:render-timeline": "remotion render remotion-videos/src/index.ts CropTimeline out/crop-timeline.mp4",
+    "video:render-tutorial": "remotion render remotion-videos/src/index.ts CropCreationTutorial out/crop-creation-tutorial.mp4 --crf=23",
+    "video:render-tutorial-v2": "remotion render remotion-videos/src/index.ts CropCreationTutorialV2 out/crop-creation-tutorial-v2.mp4 --crf=23",
+    "video:render-final": "remotion render remotion-videos/src/index.ts CropCreationFinal out/crop-creation-final.mp4 --crf=23",
+    "video:render-compact": "remotion render remotion-videos/src/index.ts CropCreationCompact out/crop-creation-compact.mp4 --crf=23",
+    "video:render-realistic": "remotion render remotion-videos/src/index.ts CropCreationRealistic out/crop-creation-realistic.mp4 --crf=23"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -61,6 +70,8 @@
     "zustand": "^5.0.7"
   },
   "devDependencies": {
+    "@remotion/bundler": "^4.0.374",
+    "@remotion/cli": "^4.0.374",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
@@ -71,6 +82,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "postcss": "^8.5.0",
+    "remotion": "^4.0.374",
     "tailwindcss": "^3.4.16",
     "typescript": "^5.6.3",
     "vite": "^6.0.1"
