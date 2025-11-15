@@ -28,11 +28,11 @@
 ---
 
 ### 0:07.5 - 0:12 (Scene 3: Plant Selection)
-**Text**: "First, select the plant family, for example tomatoes, then indicate the order and quantity."
+**Text**: "Select the plant family, like tomatoes, then the order and quantity."
 
 **Notes**:
-- Emphasis on "First"
-- Light pause after "family"
+- Concise and direct
+- Natural flow without pauses
 
 ---
 
@@ -55,12 +55,11 @@
 ---
 
 ### 0:24 - 0:27.5 (Scene 6: Harvest Planning)
-**Text**: "Estimate your production by indicating the expected harvest quantity and unit."
+**Text**: "Set the expected harvest quantity and unit."
 
 **Notes**:
-- Informative tone
-- Fluid rhythm
-- Emphasis on "estimate"
+- Direct and concise
+- Clear instruction
 
 ---
 
@@ -105,7 +104,7 @@ gtts-cli "Start by clicking the plus button." \
   --output voiceover-en/voice_02_fab.mp3
 
 # Scene 3 (7.5-12s)
-gtts-cli "First, select the plant family, for example tomatoes, then indicate the order and quantity." \
+gtts-cli "Select the plant family, like tomatoes, then the order and quantity." \
   --lang en \
   --output voiceover-en/voice_03_plant.mp3
 
@@ -120,7 +119,7 @@ gtts-cli "Define sowing and harvest periods by consulting the integrated calenda
   --output voiceover-en/voice_05_timing.mp3
 
 # Scene 6 (24-27.5s)
-gtts-cli "Estimate your production by indicating the expected harvest quantity and unit." \
+gtts-cli "Set the expected harvest quantity and unit." \
   --lang en \
   --output voiceover-en/voice_06_harvest.mp3
 
@@ -200,10 +199,10 @@ ls -lh ../out/crop-creation-with-voiceover-en.mp4
 ## Complete Text (For Copy-Paste)
 
 ```
-Discover how to create a new crop in 4 simple steps. Start by clicking the plus button. First, select the plant family, for example tomatoes, then indicate the order and quantity. Next, choose the location: first the project, then the parcel, and finally the concerned zone. Define sowing and harvest periods by consulting the integrated calendar to optimize your planning. Estimate your production by indicating the expected harvest quantity and unit. Save your crop. It appears immediately in your Gantt planning. Your crop is created! Start planning your garden with GardenFlow now.
+Discover how to create a new crop in 4 simple steps. Start by clicking the plus button. Select the plant family, like tomatoes, then the order and quantity. Next, choose the location: first the project, then the parcel, and finally the concerned zone. Define sowing and harvest periods by consulting the integrated calendar to optimize your planning. Set the expected harvest quantity and unit. Save your crop. It appears immediately in your Gantt planning. Your crop is created! Start planning your garden with GardenFlow now.
 ```
 
-**Word count**: ~95
+**Word count**: ~85
 **Estimated duration**: ~38 seconds (normal speed)
 
 ---

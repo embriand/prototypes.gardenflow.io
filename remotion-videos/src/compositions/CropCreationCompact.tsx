@@ -1,12 +1,15 @@
 import { useCurrentFrame, useVideoConfig, interpolate, spring, Easing, Sequence, AbsoluteFill } from 'remotion';
+import { getTranslations, type Language } from '../translations/cropCreationTranslations';
 
 /**
- * Compact Crop Creation Tutorial - 28 seconds, high zoom, actual Gantt design
+ * Compact Crop Creation Tutorial - 38 seconds, high zoom, actual Gantt design
  * Based on real screenshot with minimal white space
+ * Supports multiple languages (fr, en)
  */
 
 interface CropCreationCompactProps {
   appName?: string;
+  language?: Language;
 }
 
 // GardenFlow Colors from screenshot
@@ -30,55 +33,56 @@ const GF_COLORS = {
 // No zoom to avoid cropping
 const ZOOM_SCALE = 1.0;
 
-export const CropCreationCompact: React.FC<CropCreationCompactProps> = () => {
+export const CropCreationCompact: React.FC<CropCreationCompactProps> = ({ language = 'fr' }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: GF_COLORS.grey50 }}>
       {/* Scene 1: Title (0-135 frames, 4.5s) - Audio: 4.15s */}
       <Sequence from={0} durationInFrames={135}>
-        <TitleScene />
+        <TitleScene language={language} />
       </Sequence>
 
       {/* Scene 2: FAB Click (135-225 frames, 3s) - Audio: 2.90s */}
       <Sequence from={135} durationInFrames={90}>
-        <FABClickScene />
+        <FABClickScene language={language} />
       </Sequence>
 
       {/* Scene 3: Form - Plant Selection (225-360 frames, 4.5s) - Audio: 4.06s */}
       <Sequence from={225} durationInFrames={135}>
-        <PlantSelectionScene />
+        <PlantSelectionScene language={language} />
       </Sequence>
 
       {/* Scene 4: Form - Location (360-540 frames, 6s) - Audio: 5.33s */}
       <Sequence from={360} durationInFrames={180}>
-        <LocationSelectionScene />
+        <LocationSelectionScene language={language} />
       </Sequence>
 
       {/* Scene 5: Form - Timeline (540-720 frames, 6s) - Audio: 5.74s */}
       <Sequence from={540} durationInFrames={180}>
-        <TimelineScene />
+        <TimelineScene language={language} />
       </Sequence>
 
       {/* Scene 6: Form - Harvest Planning (720-825 frames, 3.5s) - Audio: 3.31s */}
       <Sequence from={720} durationInFrames={105}>
-        <HarvestPlanningScene />
+        <HarvestPlanningScene language={language} />
       </Sequence>
 
       {/* Scene 7: Save & Gantt Result (825-975 frames, 5s) - Audio: 4.82s */}
       <Sequence from={825} durationInFrames={150}>
-        <SaveAndGanttScene />
+        <SaveAndGanttScene language={language} />
       </Sequence>
 
       {/* Scene 8: Success Screen (975-1140 frames, 5.5s) - Audio: 5.04s */}
       <Sequence from={975} durationInFrames={165}>
-        <SuccessScene />
+        <SuccessScene language={language} />
       </Sequence>
     </AbsoluteFill>
   );
 };
 
 // Title Scene - 2s
-// Narration: "Découvrez comment créer une nouvelle culture en 4 étapes simples"
-const TitleScene: React.FC = () => {
+// Narration: "Découvrez comment créer une nouvelle culture {t.subtitle}"
+const TitleScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -127,10 +131,10 @@ const TitleScene: React.FC = () => {
         textAlign: 'center',
       }}>
         <div style={{ fontSize: 96, fontWeight: 700, color: 'white', marginBottom: 24 }}>
-          Créer une culture
+          {t.title}
         </div>
         <div style={{ fontSize: 42, color: 'rgba(255,255,255,0.9)' }}>
-          en 4 étapes simples
+          {t.subtitle}
         </div>
       </div>
     </AbsoluteFill>
@@ -139,7 +143,8 @@ const TitleScene: React.FC = () => {
 
 // FAB Click Scene - 2s
 // Shows real crop planner with skeleton rows
-const FABClickScene: React.FC = () => {
+const FABClickScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
 
   const fabPulse = frame > 30 ? Math.sin((frame - 30) * 0.2) * 0.1 + 1.1 : 1;
@@ -213,7 +218,7 @@ const FABClickScene: React.FC = () => {
           color: GF_COLORS.grey900,
           marginBottom: 24,
         }}>
-          Planification des cultures
+          {t.ganttTitle}
         </h1>
 
         {/* Gantt table header */}
@@ -229,21 +234,21 @@ const FABClickScene: React.FC = () => {
           fontWeight: 600,
           color: GF_COLORS.grey600,
         }}>
-          <div>Nom</div>
-          <div>Ordre</div>
-          <div>Janv.</div>
-          <div>Févr.</div>
-          <div>Mars</div>
-          <div>Avril</div>
-          <div>Mai</div>
-          <div>Juin</div>
-          <div>Juil.</div>
-          <div>Août</div>
-          <div>Sept.</div>
-          <div>Oct.</div>
-          <div>Nov.</div>
-          <div>Déc.</div>
-          <div>Récolte</div>
+          <div>{t.ganttName}</div>
+          <div>{t.ganttOrder}</div>
+          <div>{t.january}</div>
+          <div>{t.february}</div>
+          <div>{t.march}</div>
+          <div>{t.april}</div>
+          <div>{t.may}</div>
+          <div>{t.june}</div>
+          <div>{t.july}</div>
+          <div>{t.august}</div>
+          <div>{t.september}</div>
+          <div>{t.october}</div>
+          <div>{t.november}</div>
+          <div>{t.december}</div>
+          <div>{t.tabHarvest}</div>
         </div>
 
         {/* Skeleton crop rows */}
@@ -303,7 +308,8 @@ const SkeletonCropRow: React.FC<{ name: string; order: string }> = ({ name, orde
 );
 
 // Plant Selection Scene - 4s (compact form)
-const PlantSelectionScene: React.FC = () => {
+const PlantSelectionScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
 
   const categoriesAppear = interpolate(frame, [10, 30], [0, 1], { extrapolateRight: 'clamp' });
@@ -337,7 +343,7 @@ const PlantSelectionScene: React.FC = () => {
           alignItems: 'center',
         }}>
           <div style={{ fontSize: 36, fontWeight: 700, color: GF_COLORS.grey900 }}>
-            Créer une culture
+            {t.title}
           </div>
           <div style={{ fontSize: 42, color: GF_COLORS.grey600 }}>×</div>
         </div>
@@ -349,10 +355,10 @@ const PlantSelectionScene: React.FC = () => {
           borderBottom: `1px solid #e5e7eb`,
           padding: '0 32px',
         }}>
-          <Tab label="Plante" active color={GF_COLORS.blue} />
-          <Tab label="Emplacement" color={GF_COLORS.green} />
-          <Tab label="Planning" color={GF_COLORS.purpleStart} />
-          <Tab label="Récolte" color={GF_COLORS.amber} />
+          <Tab label={t.tabPlant} active color={GF_COLORS.blue} />
+          <Tab label={t.tabLocation} color={GF_COLORS.green} />
+          <Tab label={t.tabPlanning} color={GF_COLORS.purpleStart} />
+          <Tab label={t.tabHarvest} color={GF_COLORS.amber} />
         </div>
 
         {/* Content */}
@@ -364,10 +370,10 @@ const PlantSelectionScene: React.FC = () => {
             marginBottom: 24,
             opacity: categoriesAppear,
           }}>
-            <CategoryBadge label="Tous" active color="#3b82f6" />
-            <CategoryBadge label="🥬 Légumes" color="#10b981" />
-            <CategoryBadge label="🍓 Fruits" color="#ef4444" />
-            <CategoryBadge label="🌿 Herbes" color="#059669" />
+            <CategoryBadge label={t.categoryAll} active color="#3b82f6" />
+            <CategoryBadge label={t.categoryVegetables} color="#10b981" />
+            <CategoryBadge label={t.categoryFruits} color="#ef4444" />
+            <CategoryBadge label={t.categoryHerbs} color="#059669" />
           </div>
 
           {/* Plant family and details */}
@@ -378,8 +384,8 @@ const PlantSelectionScene: React.FC = () => {
             marginBottom: 24,
             opacity: fieldFade,
           }}>
-            <FormField label="Famille de plante *" value="🍅 Tomates" highlight />
-            <FormField label="Variété" value="Tomate Cerise" />
+            <FormField label={t.plantFamily} value={t.plantFamilyValue} highlight />
+            <FormField label={t.plantVariety} value={t.plantVarietyValue} />
           </div>
 
           {/* Order and Quantity */}
@@ -389,8 +395,8 @@ const PlantSelectionScene: React.FC = () => {
             gap: 24,
             opacity: fieldFade,
           }}>
-            <FormField label="Ordre" value="1" />
-            <FormField label="Quantité de graines" value="10" />
+            <FormField label={t.plantOrder} value="1" />
+            <FormField label={t.seedQuantity} value="10" />
           </div>
         </div>
       </div>
@@ -414,7 +420,8 @@ const CategoryBadge: React.FC<{ label: string; active?: boolean; color?: string 
 );
 
 // Location Selection - 4s
-const LocationSelectionScene: React.FC = () => {
+const LocationSelectionScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
   const projectAppear = interpolate(frame, [10, 30], [0, 1], { extrapolateRight: 'clamp' });
   const parcelAppear = interpolate(frame, [40, 60], [0, 1], { extrapolateRight: 'clamp' });
@@ -446,7 +453,7 @@ const LocationSelectionScene: React.FC = () => {
           alignItems: 'center',
         }}>
           <div style={{ fontSize: 36, fontWeight: 700, color: GF_COLORS.grey900 }}>
-            Créer une culture
+            {t.title}
           </div>
           <div style={{ fontSize: 42, color: GF_COLORS.grey600 }}>×</div>
         </div>
@@ -457,10 +464,10 @@ const LocationSelectionScene: React.FC = () => {
           borderBottom: `1px solid #e5e7eb`,
           padding: '0 32px',
         }}>
-          <Tab label="Plante" color={GF_COLORS.blue} />
-          <Tab label="Emplacement" active color={GF_COLORS.green} />
-          <Tab label="Planning" color={GF_COLORS.purpleStart} />
-          <Tab label="Récolte" color={GF_COLORS.amber} />
+          <Tab label={t.tabPlant} color={GF_COLORS.blue} />
+          <Tab label={t.tabLocation} active color={GF_COLORS.green} />
+          <Tab label={t.tabPlanning} color={GF_COLORS.purpleStart} />
+          <Tab label={t.tabHarvest} color={GF_COLORS.amber} />
         </div>
 
         <div style={{ padding: 32 }}>
@@ -468,7 +475,7 @@ const LocationSelectionScene: React.FC = () => {
             {/* Project (read-only) */}
             <div style={{ opacity: projectAppear }}>
               <label style={{ fontSize: 18, fontWeight: 600, color: GF_COLORS.grey600, display: 'block', marginBottom: 8 }}>
-                Projet
+                {t.project}
               </label>
               <div style={{
                 padding: 20,
@@ -479,18 +486,18 @@ const LocationSelectionScene: React.FC = () => {
                 color: GF_COLORS.grey900,
                 fontWeight: 500,
               }}>
-                🏡 Jardin Potager 2025
+                {t.projectValue}
               </div>
             </div>
 
             {/* Parcel selection */}
             <div style={{ opacity: parcelAppear }}>
-              <FormField label="Parcelle *" value="Carré Nord" highlight />
+              <FormField label={t.parcel} value={t.parcelValue} highlight />
             </div>
 
             {/* Zone selection */}
             <div style={{ opacity: zoneAppear }}>
-              <FormField label="Zone" value="Zone A - Plein Soleil" highlight />
+              <FormField label={t.zone} value={t.zoneValue} highlight />
             </div>
           </div>
         </div>
@@ -501,7 +508,8 @@ const LocationSelectionScene: React.FC = () => {
 
 // Timeline Scene - 3s (matches actual Gantt colors)
 // Narration: "Troisième étape : visualisez le planning de semis, culture et récolte."
-const TimelineScene: React.FC = () => {
+const TimelineScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
 
   const sowProgress = interpolate(frame, [20, 40], [0, 1], { extrapolateRight: 'clamp' });
@@ -534,7 +542,7 @@ const TimelineScene: React.FC = () => {
           alignItems: 'center',
         }}>
           <div style={{ fontSize: 36, fontWeight: 700, color: GF_COLORS.grey900 }}>
-            Créer une culture
+            {t.title}
           </div>
           <div style={{ fontSize: 42, color: GF_COLORS.grey600 }}>×</div>
         </div>
@@ -545,10 +553,10 @@ const TimelineScene: React.FC = () => {
           borderBottom: `1px solid #e5e7eb`,
           padding: '0 32px',
         }}>
-          <Tab label="Plante" color={GF_COLORS.blue} />
-          <Tab label="Emplacement" color={GF_COLORS.green} />
-          <Tab label="Planning" active color={GF_COLORS.purpleStart} />
-          <Tab label="Récolte" color={GF_COLORS.amber} />
+          <Tab label={t.tabPlant} color={GF_COLORS.blue} />
+          <Tab label={t.tabLocation} color={GF_COLORS.green} />
+          <Tab label={t.tabPlanning} active color={GF_COLORS.purpleStart} />
+          <Tab label={t.tabHarvest} color={GF_COLORS.amber} />
         </div>
 
         <div style={{ padding: 48 }}>
@@ -595,9 +603,9 @@ const TimelineScene: React.FC = () => {
 
           {/* Legend */}
           <div style={{ display: 'flex', gap: 48, justifyContent: 'center' }}>
-            <LegendItem color={GF_COLORS.lightBlue} label="Semis" opacity={sowProgress} />
-            <LegendItem color={GF_COLORS.green} label="Culture" opacity={cultureProgress} />
-            <LegendItem color={GF_COLORS.amber} label="Récolte" opacity={harvestProgress} />
+            <LegendItem color={GF_COLORS.lightBlue} label={t.sowingLabel} opacity={sowProgress} />
+            <LegendItem color={GF_COLORS.green} label={t.growthLabel} opacity={cultureProgress} />
+            <LegendItem color={GF_COLORS.amber} label={t.harvestLabel} opacity={harvestProgress} />
           </div>
         </div>
       </div>
@@ -607,7 +615,8 @@ const TimelineScene: React.FC = () => {
 
 // Harvest Planning Scene - 3s (NEW - Planification Récolte tab)
 // Narration: "Consultez les dates de récolte et planifiez votre calendrier."
-const HarvestPlanningScene: React.FC = () => {
+const HarvestPlanningScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
   const fieldFade = interpolate(frame, [10, 30], [0, 1], { extrapolateRight: 'clamp' });
   const dateAppear = interpolate(frame, [30, 50], [0, 1], { extrapolateRight: 'clamp' });
@@ -638,7 +647,7 @@ const HarvestPlanningScene: React.FC = () => {
           alignItems: 'center',
         }}>
           <div style={{ fontSize: 36, fontWeight: 700, color: GF_COLORS.grey900 }}>
-            Créer une culture
+            {t.title}
           </div>
           <div style={{ fontSize: 42, color: GF_COLORS.grey600 }}>×</div>
         </div>
@@ -649,10 +658,10 @@ const HarvestPlanningScene: React.FC = () => {
           borderBottom: `1px solid #e5e7eb`,
           padding: '0 32px',
         }}>
-          <Tab label="Plante" color={GF_COLORS.blue} />
-          <Tab label="Emplacement" color={GF_COLORS.green} />
-          <Tab label="Planning" color={GF_COLORS.purpleStart} />
-          <Tab label="Récolte" active color={GF_COLORS.amber} />
+          <Tab label={t.tabPlant} color={GF_COLORS.blue} />
+          <Tab label={t.tabLocation} color={GF_COLORS.green} />
+          <Tab label={t.tabPlanning} color={GF_COLORS.purpleStart} />
+          <Tab label={t.tabHarvest} active color={GF_COLORS.amber} />
         </div>
 
         <div style={{ padding: 48 }}>
@@ -667,13 +676,13 @@ const HarvestPlanningScene: React.FC = () => {
               color: GF_COLORS.grey900,
               marginBottom: 8,
             }}>
-              Planification des récoltes
+              {t.harvestPlanningTitle}
             </h3>
             <p style={{
               fontSize: 18,
               color: GF_COLORS.grey600,
             }}>
-              Estimez votre production (optionnel)
+              {t.harvestPlanningSubtitle}
             </p>
           </div>
 
@@ -685,12 +694,12 @@ const HarvestPlanningScene: React.FC = () => {
             opacity: dateAppear,
           }}>
             <FormField
-              label="Quantité de récoltes attendue"
+              label={t.harvestQuantityLabel}
               value="5"
               highlight
             />
             <FormField
-              label="Unité de récolte"
+              label={t.harvestUnitLabel}
               value="kg"
               highlight
             />
@@ -702,7 +711,8 @@ const HarvestPlanningScene: React.FC = () => {
 };
 
 // Save and Gantt Result - 4s (matches actual screenshot)
-const SaveAndGanttScene: React.FC = () => {
+const SaveAndGanttScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -744,7 +754,7 @@ const SaveAndGanttScene: React.FC = () => {
             padding: '0 24px',
           }}>
             <div style={{ fontSize: 48, fontWeight: 700, color: GF_COLORS.grey900 }}>
-              Planification des Cultures
+              {t.ganttTitle}
             </div>
           </div>
 
@@ -761,21 +771,21 @@ const SaveAndGanttScene: React.FC = () => {
             fontWeight: 600,
             color: GF_COLORS.grey600,
           }}>
-            <div>Nom</div>
-            <div>Ordre</div>
-            <div>Janv.</div>
-            <div>Févr.</div>
-            <div>Mars</div>
-            <div>Avril</div>
-            <div>Mai</div>
-            <div>Juin</div>
-            <div>Juil.</div>
-            <div>Août</div>
-            <div>Sept.</div>
-            <div>Oct.</div>
-            <div>Nov.</div>
-            <div>Déc.</div>
-            <div>Récolte</div>
+            <div>{t.ganttName}</div>
+            <div>{t.ganttOrder}</div>
+            <div>{t.january}</div>
+            <div>{t.february}</div>
+            <div>{t.march}</div>
+            <div>{t.april}</div>
+            <div>{t.may}</div>
+            <div>{t.june}</div>
+            <div>{t.july}</div>
+            <div>{t.august}</div>
+            <div>{t.september}</div>
+            <div>{t.october}</div>
+            <div>{t.november}</div>
+            <div>{t.december}</div>
+            <div>{t.tabHarvest}</div>
           </div>
 
           {/* Gantt row - Tomates (matching screenshot style) */}
@@ -804,7 +814,7 @@ const SaveAndGanttScene: React.FC = () => {
               }}>
                 LAU
               </div>
-              <div style={{ fontSize: 22, fontWeight: 600 }}>🍅 Tomates</div>
+              <div style={{ fontSize: 22, fontWeight: 600 }}>{t.cropName}</div>
             </div>
             <div style={{ fontSize: 22, color: GF_COLORS.grey600 }}>1</div>
 
@@ -899,8 +909,9 @@ const SaveAndGanttScene: React.FC = () => {
 };
 
 // Success Scene - 6s (NEW - Final closing screen)
-// Narration: "Culture créée ! Commencez à planifier votre jardin avec GardenFlow."
-const SuccessScene: React.FC = () => {
+// Narration: "Culture créée ! {t.successCTA} avec GardenFlow."
+const SuccessScene: React.FC<{ language: Language }> = ({ language }) => {
+  const t = getTranslations(language);
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -960,7 +971,7 @@ const SuccessScene: React.FC = () => {
           marginBottom: 24,
           textShadow: '0 4px 20px rgba(0, 0, 0, 0.2)',
         }}>
-          🎉 Culture créée !
+          {t.successTitle}
         </div>
         <div style={{
           fontSize: 42,
@@ -969,7 +980,7 @@ const SuccessScene: React.FC = () => {
           lineHeight: 1.5,
           textShadow: '0 2px 10px rgba(0, 0, 0, 0.1)',
         }}>
-          Votre culture de tomates a été ajoutée avec succès
+          {t.successMessage}
         </div>
       </div>
 
@@ -985,7 +996,7 @@ const SuccessScene: React.FC = () => {
           marginBottom: 32,
           textShadow: '0 2px 10px rgba(0, 0, 0, 0.15)',
         }}>
-          Commencez à planifier votre jardin
+          {t.successCTA}
         </div>
         <div style={{
           display: 'inline-flex',
@@ -1076,6 +1087,6 @@ const LegendItem: React.FC<{ color: string; label: string; opacity: number }> = 
       backgroundColor: color,
       borderRadius: 8,
     }} />
-    <span style={{ fontSize: 28, fontWeight: 600, color: GF_COLORS.grey700 }}>{label}</span>
+    <span style={{ fontSize: 28, fontWeight: 600, color: GF_COLORS.grey600 }}>{label}</span>
   </div>
 );

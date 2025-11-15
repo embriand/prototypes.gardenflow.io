@@ -78,7 +78,7 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
 
-      {/* Crop Creation Compact - 38s, Actual Gantt Design, Complete Flow with Voiceover */}
+      {/* Crop Creation Compact - FR - 38s, Actual Gantt Design, Complete Flow with Voiceover */}
       <Composition
         id="CropCreationCompact"
         component={CropCreationCompact}
@@ -87,7 +87,64 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
         defaultProps={{
-          appName: 'GardenFlow'
+          appName: 'GardenFlow',
+          language: 'fr' as const
+        }}
+      />
+
+      {/* Crop Creation Compact - EN - 38s, English version with voiceover */}
+      <Composition
+        id="CropCreationCompact-EN"
+        component={CropCreationCompact}
+        durationInFrames={1140} // 38 seconds at 30fps (extended for voiceover)
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          appName: 'GardenFlow',
+          language: 'en' as const
+        }}
+      />
+
+      {/* Crop Creation Compact - DE - 38s, German version with voiceover */}
+      <Composition
+        id="CropCreationCompact-DE"
+        component={CropCreationCompact}
+        durationInFrames={1140} // 38 seconds at 30fps (extended for voiceover)
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          appName: 'GardenFlow',
+          language: 'de' as const
+        }}
+      />
+
+      {/* Crop Creation Compact - ES - 38s, Spanish version with voiceover */}
+      <Composition
+        id="CropCreationCompact-ES"
+        component={CropCreationCompact}
+        durationInFrames={1140} // 38 seconds at 30fps (extended for voiceover)
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          appName: 'GardenFlow',
+          language: 'es' as const
+        }}
+      />
+
+      {/* Crop Creation Compact - KO - 38s, Korean version with voiceover */}
+      <Composition
+        id="CropCreationCompact-KO"
+        component={CropCreationCompact}
+        durationInFrames={1140} // 38 seconds at 30fps (extended for voiceover)
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          appName: 'GardenFlow',
+          language: 'ko' as const
         }}
       />
 
